@@ -1,1 +1,30 @@
-site_name: My Docs
+site_name: FlexiCam Documentation
+site_description: Camera Modes Plugin for Unreal Engine 5
+site_author: egorkapk
+site_url: https://github.com/egorkapk/flexicam-docs
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - search.highlight
+    - search.suggest
+  palette:
+    scheme: slate
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - Home: index.md
