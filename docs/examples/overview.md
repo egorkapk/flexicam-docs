@@ -12,4 +12,4 @@
 
 ## [Camera Mode Trigger](../camera-mode-trigger.md)
 
-## [Tutorial](../tutorail.md)
+## [Tutorial](../tutorial.md)
