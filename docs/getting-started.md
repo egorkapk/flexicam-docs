@@ -1,3 +1,3 @@
 Getting started
 
-[Example Level](example-level.md)
+[Example Level](examples/example-level.md)

@@ -28,6 +28,5 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Overview: overview.md
-  - Getting Started: getting_started.md
-  - Camera Mode: camera_mode.md
+  - Getting Started: getting-started.md
+  - Examples: examples/overview.md

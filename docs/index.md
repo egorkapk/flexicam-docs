@@ -1,17 +1,19 @@
 # Welcome to FlexiCam Docs
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## FlexiCam Plugin
 
-## Commands
+ FlexiCam is a modular camera system for Unreal Engine 5 that allows you to design, combine, and switch between multiple camera behaviors.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Key Features
 
-## Project layout
+🎥 Camera Modes Architecture
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+* Build your camera system using independent [Camera Modes](camera-mode.md).
+
+🔄 Seamless Mode Switching
+
+* Smoothly blend between camera modes based on gameplay context.
+
+🧩 Highly Extensible
+
+* Create custom [Camera Modes](camera-mode.md) in Blueprint or C++.
