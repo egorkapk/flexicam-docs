@@ -8,4 +8,4 @@
 
 ## [Top Down Camera Mode](top-down-mode.md)
 
-## [Camera Mode Trigger](/docs/camera-mode-trigger.md)
+## [Camera Mode Trigger](../camera-mode-trigger.md)
