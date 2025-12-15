@@ -8,4 +8,8 @@
 
 ## [Top Down Camera Mode](top-down-mode.md)
 
+## [Fighting Camera Mode](fighting-mode.md)
+
 ## [Camera Mode Trigger](../camera-mode-trigger.md)
+
+## [Tutorial](../tutorail.md)
