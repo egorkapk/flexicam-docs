@@ -1,3 +1,3 @@
-Getting started
+# Getting started
 
 [Example Level](examples/example-level.md)
