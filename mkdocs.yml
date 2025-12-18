@@ -28,5 +28,5 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Getting Started: getting-started.md
+  - Installation: installation.md
   - Examples: examples/overview.md
