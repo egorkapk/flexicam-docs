@@ -129,3 +129,6 @@ Let’s make the blending between our two CameraModes smoother.
 See the difference.
 
 Congratulations! Now you know how to set up your own `Camera Modes`.
+
+!!! tip
+    To see how to change input by camera mode see [BP_FlexiCamCharacter](examples/flexicam-character.md)
