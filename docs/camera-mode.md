@@ -12,9 +12,9 @@ Multiple modes can be active at the same time and smoothly blended together.
 
 ---
 
-### `FlexiCameraModeView`
+## FlexiCameraModeView
 
-Every **CameraMode** contains **FlexiCameraModeView** structure that represents the camera output produced by a camera mode.
+Every **CameraMode** contains `FlexiCameraModeView` structure that represents the camera output produced by a camera mode.
 
 **Contains:**
 
