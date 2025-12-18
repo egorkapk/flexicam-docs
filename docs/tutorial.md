@@ -94,3 +94,38 @@ Connect `Camera offset` variable to it
     ![alt text](<resources/Set offset default.png>)
 
 Now we have a fully functional Side Scroller mode. Let’s see how to activate it.
+
+## Camera Mode Trigger
+
+1. In `Content Browser` create [`FlexiCameraModeTrigger`](camera-mode-trigger.md) Blueprint
+
+    ![alt text](<resources/Create Trigger.png>)
+
+    Call it `CMT_SideScroller`
+
+2. Inside this Blueprint set `Camera Mode Class` variable to our `CM_SideScroller`
+
+    ![alt text](<resources/Set Triggers Mode.png>)
+
+3. Place the trigger in your level and scale it to the desired size
+
+    ![alt text](<resources/Trigger in world.png>)
+
+Now when Character inside of `CMT_SideScroller` our new `CameraMode` is active.
+
+!!! tip
+    You can change camera angle by change `Default Rotation` inside  `CM_SideScroller` Blueprint
+
+## Blend Camera Modes
+
+Let’s make the blending between our two CameraModes smoother.
+
+1. Open `CM_SideScroller` Blueprint
+2. Open `Class Defaults` menu
+3. Set blending properties as shown below
+
+    ![alt text](<resources/Set blending.png>)
+
+See the difference.
+
+Congratulations! Now you know how to set up your own `Camera Modes`.
