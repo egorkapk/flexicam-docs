@@ -64,7 +64,7 @@ virtual void UpdateView(DeltaTime) override;
 
 ---
 
-### Activation & Deactivation
+### Activation & Deactivation events
 
 Camera modes receive lifecycle events.
 
@@ -76,8 +76,8 @@ Camera modes receive lifecycle events.
 #### C++
 
 ```cpp
-virtual void OnActivation() override;
-virtual void OnDeactivation() override;
+virtual void OnActivation();
+virtual void OnDeactivation();
 ```
 
 Useful for:
@@ -85,6 +85,58 @@ Useful for:
 - Resetting interpolation
 - Playing camera effects
 - Debug logging
+
+### Target Actor
+
+`GetTargetActor`
+    Returns Actor that has [`Flexi Camera Component`](camera-component.md) on it and `Camera Mode` applied.
+    
+#### Blueprint
+
+- `Get Target Actor`
+
+```cpp
+AActor* GetTargetActor() const;
+```
+
+### Target Actor transform
+
+`Get Pivot Location`
+    Returns location of an Actor that has [`Flexi Camera Component`](camera-component.md) on it and `Camera Mode` applied. Has offset to crouch possition for Pawns.
+
+#### Blueprint
+
+- `Get Pivot Location`
+
+#### C++
+
+```cpp
+virtual FVector GetPivotLocation() const;
+```
+
+`Get Pivot Rotator`
+    Returns rotation of an Actor that has [`Flexi Camera Component`](camera-component.md) on it and `Camera Mode` applied. If `Target Actor` is a `Pawn` returns `Pawn Control Rotation`
+
+#### Blueprint
+
+- `Get Pivot Rotation`
+
+```cpp
+virtual FRotator GetPivotRotation() const;
+```
+
+### [Flexi Camera Component](camera-component.md)
+
+`GetFlexiCameraComponent`
+Returns active `Flexi Camera Component`
+
+#### Blueprint
+
+- `Get FlexiCamera Component`
+
+```cpp
+UFlexiCameraComponent* GetFlexiCameraComponent() const;
+```
 
 ---
 
