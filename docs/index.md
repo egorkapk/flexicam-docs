@@ -20,7 +20,7 @@
 
 ## Getting started
 
-For instructions how to build plugin from source see
+Installing Plugin
 
 [Installation Guide](installation.md)
 
