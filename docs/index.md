@@ -18,4 +18,12 @@
 
 * Create custom [Camera Modes](camera-mode.md) in Blueprint or C++.
 
+## Getting started
+
+For instructions how to build plugin from source see
+
+[Installation Guide](installation.md)
+
+For step-by-step Blueprint tutorial see
+
 [Tutorial](tutorial.md)
