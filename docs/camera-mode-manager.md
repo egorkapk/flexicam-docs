@@ -36,6 +36,8 @@ Resets the active camera mode back to the class specified in DefaultCameraModeCl
 
 ### Blueprint
 
+- ResetToDefaultCameraMode()
+
 ### C++
 
 ```cpp
