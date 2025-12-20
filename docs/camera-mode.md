@@ -44,7 +44,7 @@ Each camera mode supports smooth blending.
 
 ---
 
-## Important Functions
+## Core Functions
 
 ### `UpdateView(DeltaTime)`
 
@@ -58,7 +58,7 @@ Called **every frame** while the mode is active.
 
 #### C++
 
-```cpp
+ ```cpp
 virtual void UpdateView(DeltaTime) override;
 ```
 
