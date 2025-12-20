@@ -2,9 +2,13 @@
 
 Step-by-step example of how to create your own `Character` setup and [`Camera Mode`](camera-mode.md)
 
+---
+
 ## Prerequisites
 
 - A character Blueprint with basic movement (the Third Person Template character, etc.)
+
+---
 
 ## Third Person Camera Mode
 
@@ -33,6 +37,8 @@ This section shows how to set up basic [`Third Person Camera Mode`](examples/thi
     !!! warning
         If you don’t perform this step, the View Transform will be zero.
 You now have a basic Third Person camera set up.
+
+---
 
 ## Creating custom [`Camera Mode`](camera-mode.md)
 
@@ -95,6 +101,8 @@ Connect `Camera offset` variable to it
 
 Now we have a fully functional Side Scroller mode. Let’s see how to activate it.
 
+---
+
 ## Camera Mode Trigger
 
 1. In `Content Browser` create [`FlexiCameraModeTrigger`](camera-mode-trigger.md) Blueprint
@@ -115,6 +123,8 @@ Now when Character inside of `CMT_SideScroller` our new `CameraMode` is active.
 
 !!! tip
     You can change camera angle by change `Default Rotation` inside  `CM_SideScroller` Blueprint
+
+---
 
 ## Blend Camera Modes
 
