@@ -14,7 +14,7 @@ Multiple modes can be active at the same time and smoothly blended together.
 
 ## FlexiCameraModeView
 
-Every **CameraMode** contains `FlexiCameraModeView` structure that represents the camera output produced by a camera mode.
+Every `CameraMode` contains `FlexiCameraModeView` structure that represents the camera output produced by a camera mode.
 
 **Contains:**
 
@@ -22,6 +22,8 @@ Every **CameraMode** contains `FlexiCameraModeView` structure that represents th
 - `Rotation` — camera rotation.
 - `ControlRotation` — control rotation for the player.
 - `FieldOfView` — camera FOV.
+
+---
 
 ## Blending Between Camera Modes
 

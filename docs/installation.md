@@ -2,6 +2,8 @@
 
 This page will show how to add FlexiCam Plugin to your project
 
+---
+
 ## Prepare your project
 
 - Inside `/YorProject` directory create folder named `Plugins`
@@ -12,6 +14,8 @@ This page will show how to add FlexiCam Plugin to your project
 
 - Open `Plugins` folder and copy `FlexiCam` folder from Plugin files into it
 
+---
+
 ## Build Plugin
 
 - Run your UE5 project. You will see next message
@@ -21,6 +25,8 @@ This page will show how to add FlexiCam Plugin to your project
     Press "Yes" button
 
 - If there are any errors, please build the project from source using your IDE
+
+---
 
 ## Plugin Enable
 
@@ -35,6 +41,8 @@ Plugin enables by default, but if not
     ![alt text](<resources/Enable Plugin.png>)
 
 - Reload Engine
+
+---
 
 ## C++ configuring
 

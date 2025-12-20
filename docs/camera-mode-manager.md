@@ -2,6 +2,8 @@
 
 `FlexiCameraModeManagerComponent` is responsible for managing the active [`Camera Mode`](camera-mode.md) logic. It determines which mode class should be pushed to the camera stack.
 
+---
+
 ## Configuration Properties
 
 - `DefaultCameraModeClass` (EditDefaultsOnly)
@@ -12,9 +14,11 @@
 
     Allows the manager to control a [`FlexiCameraComponent`](camera-component.md) on a specific target actor. If null, it defaults to the manager's owner.
 
+---
+
 ## Core functions
 
-### `SetCameraMode` 
+### `SetCameraMode`
 
 Sets the specific camera mode class to be active
 
