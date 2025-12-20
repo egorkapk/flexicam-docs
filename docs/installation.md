@@ -48,9 +48,15 @@ Plugin enables by default, but if not
 
 If you want to use Plugin in C++ Source Code you have to
 
-- Inside YourProject.Build.cs file add
+- Inside `YourProject.Build.cs` file add:
 
-    "FlexiCam", "EnhancedInput", "GameplayTags" modules inside `PublicDependencyModuleNames`
+    "FlexiCam",
+    
+    "EnhancedInput",
+    
+    "GameplayTags"
+    
+    modules inside `PublicDependencyModuleNames`
 
     ```cs
 

@@ -32,5 +32,6 @@ plugins:
 
 nav:
   - Home: index.md
+  - Overview: overview.md
   - Installation: installation.md
   - Examples: examples/overview.md
