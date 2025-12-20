@@ -58,7 +58,7 @@ Called **every frame** while the mode is active.
 
 #### C++
 
- ```cpp
+```cpp
 virtual void UpdateView(DeltaTime) override;
 ```
 
