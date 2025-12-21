@@ -24,19 +24,19 @@ This mode keeps all fighters in view by dynamically positioning and zooming the 
 
 ## Methods
 
-- `UpdateView_Implementation`: Updates camera location and rotation every frame.
+- `UpdateView_Implementation`: Updates camera location and rotation every frame
 
 ```cpp
     virtual void UpdateView_Implementation(float DeltaTime) override;
 ```
 
-- `GetMidPoint`: Returns midpoint location between all fighters.
+- `GetMidPoint`: Returns midpoint location between all fighters
 
 ```cpp
     FVector GetMidPoint() const;
 ```
 
-- `GetFightersMaxDistance()`: Returns maximum distance between fighters.
+- `GetFightersMaxDistance()`: Returns maximum distance between fighters
 
 ```cpp
     const float GetFightersMaxDistance() const;
