@@ -40,6 +40,28 @@ You now have a basic Third Person camera set up.
 
 ---
 
+## FlexiCam Interface
+
+To work properly with other plugin systems, such as [Camera Mode Trigger](camera-mode-trigger.md) our character need to implement [FlexiCam Interface](flexicam-interface.md)
+
+1. Go to `Class Settings` menu on top of editor
+
+    ![alt text](resources/ClassSettings.png)
+
+2. Inside `Details` panel in `Implemented Interfaces` property click on add button and search for `FlexiCamInterface` 
+
+    ![alt text](<resources/Interface add.png>)
+
+3. On the left side of the Editor find `FlexiCamInterface` and double-click on `GetFlexiCameraModeManagerComponent` function
+
+    ![alt text](<resources/interface override.png>)
+
+4. Drag and drop `Camera Manager Component` from `Components` panel and place it to Return Value
+
+    ![alt text](<resources/Interface final function.png>)
+    
+---
+
 ## Creating custom [`Camera Mode`](camera-mode.md)
 
 1. Open `Content Browser`, press `Right Mouse Button` and select `Blueprint Class` menu

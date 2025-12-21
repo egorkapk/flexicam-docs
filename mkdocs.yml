@@ -34,4 +34,5 @@ nav:
   - Home: index.md
   - Overview: overview.md
   - Installation: installation.md
+  - Tutorial: tutorial.md
   - Examples: examples/overview.md
