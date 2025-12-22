@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="FlexiCam_8cpp" kind="file" language="C++">
+    <compoundname>FlexiCam.cpp</compoundname>
+    <includes refid="FlexiCam_8h" local="yes">FlexiCam.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>Source/FlexiCam/Private/FlexiCam.cpp</label>
+        <link refid="FlexiCam_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>FlexiCam.h</label>
+        <link refid="FlexiCam_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Modules/ModuleManager.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="FlexiCam_8cpp_1a0de3ae51f3a629a8e5d113f1b9390da7" prot="public" static="no">
+        <name>LOCTEXT_NAMESPACE</name>
+        <initializer>&quot;FFlexiCamModule&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Private/FlexiCam.cpp" line="5" column="9" bodyfile="Source/FlexiCam/Private/FlexiCam.cpp" bodystart="5" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Copyright<sp/>(c)<sp/>2025<sp/>Egor<sp/>Ermakov.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;FlexiCam.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LOCTEXT_NAMESPACE<sp/>&quot;FFlexiCamModule&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classFFlexiCamModule_1aa7b851f18c8db829fe9eb547335aa8ae" kindref="member">FFlexiCamModule::StartupModule</ref>()</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>This<sp/>code<sp/>will<sp/>execute<sp/>after<sp/>your<sp/>module<sp/>is<sp/>loaded<sp/>into<sp/>memory;<sp/>the<sp/>exact<sp/>timing<sp/>is<sp/>specified<sp/>in<sp/>the<sp/>.uplugin<sp/>file<sp/>per-module</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>FFlexiCamModule::ShutdownModule()</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>This<sp/>function<sp/>may<sp/>be<sp/>called<sp/>during<sp/>shutdown<sp/>to<sp/>clean<sp/>up<sp/>your<sp/>module.<sp/><sp/>For<sp/>modules<sp/>that<sp/>support<sp/>dynamic<sp/>reloading,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>we<sp/>call<sp/>this<sp/>function<sp/>before<sp/>unloading<sp/>the<sp/>module.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#undef<sp/>LOCTEXT_NAMESPACE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">IMPLEMENT_MODULE(<ref refid="classFFlexiCamModule" kindref="compound">FFlexiCamModule</ref>,<sp/>FlexiCam)</highlight></codeline>
+    </programlisting>
+    <location file="Source/FlexiCam/Private/FlexiCam.cpp"/>
+  </compounddef>
+</doxygen>

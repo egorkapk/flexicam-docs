@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_9e8acde77c3f9f76496e888d83552b45" kind="dir">
+    <compoundname>Source/FlexiCam/Public</compoundname>
+    <innerdir refid="dir_84b5c73bab400aad4609d36a8159f44b">Source/FlexiCam/Public/CameraModes</innerdir>
+    <innerdir refid="dir_d24cb03e715cfcb49bf958c561166156">Source/FlexiCam/Public/Examples</innerdir>
+    <innerdir refid="dir_b057122e45aa8bd45ab36524bc638649">Source/FlexiCam/Public/Miscellaneous</innerdir>
+    <innerfile refid="FlexiCam_8h">FlexiCam.h</innerfile>
+    <innerfile refid="FlexiCameraComponent_8h">FlexiCameraComponent.h</innerfile>
+    <innerfile refid="FlexiCameraModeManagerComponent_8h">FlexiCameraModeManagerComponent.h</innerfile>
+    <innerfile refid="FlexiCamInterface_8h">FlexiCamInterface.h</innerfile>
+    <innerfile refid="FlexiPlayerCameraManager_8h">FlexiPlayerCameraManager.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Source/FlexiCam/Public/"/>
+  </compounddef>
+</doxygen>

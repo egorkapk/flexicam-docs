@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.8" xml:lang="en-US">
+  <compound refid="classAFlexiCamCharacter" kind="class"><name>AFlexiCamCharacter</name>
+    <member refid="classAFlexiCamCharacter_1a1cf734d2bc5c34ad1ca7f393c3603dd3" kind="variable"><name>CameraBoom</name></member>
+    <member refid="classAFlexiCamCharacter_1a88bcba3bf83614cfb9dffe4bb8e4c78b" kind="variable"><name>FollowCamera</name></member>
+    <member refid="classAFlexiCamCharacter_1af213f9ba9b87464ca12cf582d9ce3fba" kind="variable"><name>FlexiCameraModeManagerComponent</name></member>
+    <member refid="classAFlexiCamCharacter_1ac9de726dd232393f3dd6fbd5faee948c" kind="variable"><name>JumpAction</name></member>
+    <member refid="classAFlexiCamCharacter_1a27c4683dc6b20e6363183a0108fda8c3" kind="variable"><name>MoveAction</name></member>
+    <member refid="classAFlexiCamCharacter_1abf5816627b4ef4dee9278d3c0a16aaa1" kind="variable"><name>LookAction</name></member>
+    <member refid="classAFlexiCamCharacter_1a63b13735a6d0f5c187d1ef7c91acf34c" kind="variable"><name>MouseLookAction</name></member>
+    <member refid="classAFlexiCamCharacter_1ac15434b84250146456c6d495414fb42b" kind="function"><name>AFlexiCamCharacter</name></member>
+    <member refid="classAFlexiCamCharacter_1af2987eac45800fcd0e66138d6b48f64a" kind="function"><name>GetFlexiCameraModeManagerComponent_Implementation</name></member>
+    <member refid="classAFlexiCamCharacter_1a2e9aadb90656008aa09105551ff4a0b4" kind="function"><name>DoMove</name></member>
+    <member refid="classAFlexiCamCharacter_1ad87c328c7082be2bfbd8c87cf5c47577" kind="function"><name>DoLook</name></member>
+    <member refid="classAFlexiCamCharacter_1aedddde8888bbc3642251f4b2fa31212c" kind="function"><name>DoJumpStart</name></member>
+    <member refid="classAFlexiCamCharacter_1afcd5408fbf8ee1a9664cced427a5016e" kind="function"><name>DoJumpEnd</name></member>
+    <member refid="classAFlexiCamCharacter_1a48e169ad04462c518201f2fb6a005b51" kind="function"><name>GetCameraBoom</name></member>
+    <member refid="classAFlexiCamCharacter_1a7e19f09d84ed4ded1ac6d4b3ec01ecf0" kind="function"><name>GetFollowCamera</name></member>
+    <member refid="classAFlexiCamCharacter_1a3c5b3e8462151ac5537cf34ff910a75d" kind="function"><name>SetupPlayerInputComponent</name></member>
+    <member refid="classAFlexiCamCharacter_1a6bc71e8b578c326e5be76ac315f89b40" kind="function"><name>Move</name></member>
+    <member refid="classAFlexiCamCharacter_1a43b002f4c039e46863eb410cf5aa1d8a" kind="function"><name>Look</name></member>
+  </compound>
+  <compound refid="classAFlexiCameraModeTrigger" kind="class"><name>AFlexiCameraModeTrigger</name>
+    <member refid="classAFlexiCameraModeTrigger_1a3736bb24fc2f53459841c31f53fafae2" kind="variable"><name>TriggerVolume</name></member>
+    <member refid="classAFlexiCameraModeTrigger_1a82765b11928613fae25fcb7d6f82e311" kind="variable"><name>CameraModeClass</name></member>
+    <member refid="classAFlexiCameraModeTrigger_1a498d50bd32e4e046802a9ed702c1fe51" kind="function"><name>AFlexiCameraModeTrigger</name></member>
+    <member refid="classAFlexiCameraModeTrigger_1a1329c7dbe2b5e481e79d66aa2a83645c" kind="function"><name>OnTriggerBeginOverlap</name></member>
+    <member refid="classAFlexiCameraModeTrigger_1ad2a2fd60c685066c292e09d28c74df73" kind="function"><name>OnTriggerEndOverlap</name></member>
+    <member refid="classAFlexiCameraModeTrigger_1a995eaad4a13ae1a2d67844c358013fef" kind="function"><name>GetCameraModeManagerComponent</name></member>
+  </compound>
+  <compound refid="classAFlexiCamPlayerController" kind="class"><name>AFlexiCamPlayerController</name>
+    <member refid="classAFlexiCamPlayerController_1af60372738d1e5b62603a552f3f27b953" kind="variable"><name>DefaultMappingContexts</name></member>
+    <member refid="classAFlexiCamPlayerController_1a0f833ec6cde8bfcbc88f794b2b640b1b" kind="function"><name>SetupInputComponent</name></member>
+  </compound>
+  <compound refid="classAFlexiPlayerCameraManager" kind="class"><name>AFlexiPlayerCameraManager</name>
+    <member refid="classAFlexiPlayerCameraManager_1a14fdf78cdc40bdf7689216a2fb4a0a84" kind="function"><name>AFlexiPlayerCameraManager</name></member>
+  </compound>
+  <compound refid="classATopDownCameraModeTrigger" kind="class"><name>ATopDownCameraModeTrigger</name>
+    <member refid="classATopDownCameraModeTrigger_1a7deb5d100f0906aef6c216c32a890842" kind="function"><name>ATopDownCameraModeTrigger</name></member>
+    <member refid="classATopDownCameraModeTrigger_1a618f5ecbfb1cbde5bd93c827ad8f5cb5" kind="function"><name>GetTriggerVolume</name></member>
+  </compound>
+  <compound refid="structFFlexiCameraModeView" kind="struct"><name>FFlexiCameraModeView</name>
+    <member refid="structFFlexiCameraModeView_1a283ab1e03a098260eeafad0e69f6eb45" kind="variable"><name>Location</name></member>
+    <member refid="structFFlexiCameraModeView_1a3ef789bcf0de5d709c2a9d2f5b66e866" kind="variable"><name>Rotation</name></member>
+    <member refid="structFFlexiCameraModeView_1ac662e64a877db82af40a303a910e71ea" kind="variable"><name>ControlRotation</name></member>
+    <member refid="structFFlexiCameraModeView_1aa8f3d02f61fed977321cfe8c9864a16d" kind="variable"><name>FieldOfView</name></member>
+    <member refid="structFFlexiCameraModeView_1a27956afa4db4e33c6e7d071011104a62" kind="function"><name>FFlexiCameraModeView</name></member>
+    <member refid="structFFlexiCameraModeView_1aaf9b012969ad67f15f5c45d8521edd5d" kind="function"><name>Blend</name></member>
+  </compound>
+  <compound refid="classFFlexiCamModule" kind="class"><name>FFlexiCamModule</name>
+    <member refid="classFFlexiCamModule_1aa7b851f18c8db829fe9eb547335aa8ae" kind="function"><name>StartupModule</name></member>
+    <member refid="classFFlexiCamModule_1a3a10dd1b4eb6348115e4fa1dc1728c55" kind="function"><name>ShutdownModule</name></member>
+  </compound>
+  <compound refid="classIFlexiCamInterface" kind="class"><name>IFlexiCamInterface</name>
+    <member refid="classIFlexiCamInterface_1a87fd41388fe927b98997d4ee0e1cf98d" kind="function"><name>GetFlexiCameraModeManagerComponent</name></member>
+  </compound>
+  <compound refid="classUFightingCameraMode" kind="class"><name>UFightingCameraMode</name>
+    <member refid="classUFightingCameraMode_1a58d245e11fd6891ccb6c071105527f5c" kind="variable"><name>DefaultPivotRotation</name></member>
+    <member refid="classUFightingCameraMode_1a11a7e4df4cdfec3088f0d85dbda26547" kind="variable"><name>BoundsSizeToDistance</name></member>
+    <member refid="classUFightingCameraMode_1a641e63ce91557461cfbda6d157e00ab6" kind="variable"><name>InterpolationSpeed</name></member>
+    <member refid="classUFightingCameraMode_1ab5d690d686309cd2b50eb1130f3d6474" kind="variable"><name>CurrentCameraLocation</name></member>
+    <member refid="classUFightingCameraMode_1a4270ffeff7001383ec9702da40b66dcf" kind="variable"><name>bIsFirstUpdate</name></member>
+    <member refid="classUFightingCameraMode_1a5aa46cc8a6a4163d1b5e68cc35b9a2ca" kind="function"><name>UFightingCameraMode</name></member>
+    <member refid="classUFightingCameraMode_1a649bd9482c3d5284ec58f55a5d292d2b" kind="function"><name>UpdateView_Implementation</name></member>
+    <member refid="classUFightingCameraMode_1a469ebf6615a8227a558cbea4c9b777cc" kind="function"><name>GetMidPoint</name></member>
+    <member refid="classUFightingCameraMode_1ad0cd4d93acc36154675653a364abaf4d" kind="function"><name>GetFightersMaxDistance</name></member>
+  </compound>
+  <compound refid="classUFlexiCameraMode" kind="class"><name>UFlexiCameraMode</name>
+    <member refid="classUFlexiCameraMode_1ad3497c417eaa2c9612a5ba9341c0679d" kind="variable"><name>CameraTypeTags</name></member>
+    <member refid="classUFlexiCameraMode_1af5930e99d051c0438e8a1e61786bbed8" kind="variable"><name>ModeView</name></member>
+    <member refid="classUFlexiCameraMode_1a950184dd09e227680d7a019b3bc6532d" kind="variable"><name>FieldOfView</name></member>
+    <member refid="classUFlexiCameraMode_1a49b61190403638ba28b29878c3527b54" kind="variable"><name>ViewPitchMin</name></member>
+    <member refid="classUFlexiCameraMode_1a03a610799b2d5235ba4af0e18490097c" kind="variable"><name>ViewPitchMax</name></member>
+    <member refid="classUFlexiCameraMode_1a3e1397704cf212736a1ff74bec4485c2" kind="variable"><name>BlendTime</name></member>
+    <member refid="classUFlexiCameraMode_1ad8286d92bcdd029a50eeceb7c2db9979" kind="variable"><name>BlendFunction</name></member>
+    <member refid="classUFlexiCameraMode_1a8f53b7efe98d7f64985ccc634e7081ec" kind="variable"><name>BlendExponent</name></member>
+    <member refid="classUFlexiCameraMode_1a4ea5fcd80ac165319c3b0f4b0bbe0b5a" kind="variable"><name>BlendAlpha</name></member>
+    <member refid="classUFlexiCameraMode_1a8388d7138c6f2f1f0f426ba9a56ae7a1" kind="variable"><name>BlendWeight</name></member>
+    <member refid="classUFlexiCameraMode_1a137102e1dcf4f9e0ffbb064f2b46f865" kind="variable"><name>bResetInterpolation</name></member>
+    <member refid="classUFlexiCameraMode_1ada8295535cf7dee078e3477d383bc21c" kind="function"><name>UFlexiCameraMode</name></member>
+    <member refid="classUFlexiCameraMode_1afa231af0bee579090ed8e0fdde1f0923" kind="function"><name>GetFlexiCameraComponent</name></member>
+    <member refid="classUFlexiCameraMode_1a807639825027954d9525da0ff9f09a30" kind="function"><name>GetWorld</name></member>
+    <member refid="classUFlexiCameraMode_1a44a00ebb9f048ba69637bfa6e00bb174" kind="function"><name>GetTargetActor</name></member>
+    <member refid="classUFlexiCameraMode_1ac1439d46653a7a18a3be516ef7bceac9" kind="function"><name>UpdateCameraMode</name></member>
+    <member refid="classUFlexiCameraMode_1a87ab10f204922941bb5a6f2d91ca90c7" kind="function"><name>SetBlendWeight</name></member>
+    <member refid="classUFlexiCameraMode_1a4bde481bbfa9034c911214e1eb8b2f10" kind="function"><name>OnActivation</name></member>
+    <member refid="classUFlexiCameraMode_1a103c68934be1a01c77c5ce20999cb03d" kind="function"><name>OnActivation_Event</name></member>
+    <member refid="classUFlexiCameraMode_1af9d098072870d25e281472af27805ad3" kind="function"><name>OnDeactivation</name></member>
+    <member refid="classUFlexiCameraMode_1ac71ae44800f4c37ad91acc4ecc36f05f" kind="function"><name>OnDeactivation_Event</name></member>
+    <member refid="classUFlexiCameraMode_1a605936d6ede886252c551f22d28f3842" kind="function"><name>GetCameraModeView</name></member>
+    <member refid="classUFlexiCameraMode_1a1da5974facea9b9eb7aab0dcb84a936b" kind="function"><name>GetBlendTime</name></member>
+    <member refid="classUFlexiCameraMode_1a106306701bdccb5d263b89595d807b2d" kind="function"><name>GetBlendWeight</name></member>
+    <member refid="classUFlexiCameraMode_1abe897e59fbfa437b618905be1bbc7e3a" kind="function"><name>GetCameraTypeTag</name></member>
+    <member refid="classUFlexiCameraMode_1a6c68233eec86392946fdda5c24ea917e" kind="function"><name>GetTagContainer</name></member>
+    <member refid="classUFlexiCameraMode_1aad4c32d8226e36c5e796e9ee51d150c8" kind="function"><name>GetPivotLocation</name></member>
+    <member refid="classUFlexiCameraMode_1a68aa0371fe2d82f6f9a3f105cb85bd31" kind="function"><name>GetPivotRotation</name></member>
+    <member refid="classUFlexiCameraMode_1a4257b0fb8f8e890b5e74ad32e767982c" kind="function"><name>UpdateView</name></member>
+    <member refid="classUFlexiCameraMode_1a8484a1ac604a7a4fefca2b9ac21e0d72" kind="function"><name>UpdateView_Implementation</name></member>
+    <member refid="classUFlexiCameraMode_1a621d1563a16194fb5f7d55a1e6d3e6ac" kind="function"><name>UpdateBlending</name></member>
+  </compound>
+  <compound refid="classUFlexiCameraModeStack" kind="class"><name>UFlexiCameraModeStack</name>
+    <member refid="classUFlexiCameraModeStack_1af371eee304c52dcc03605c459c75447e" kind="variable"><name>bIsActive</name></member>
+    <member refid="classUFlexiCameraModeStack_1a202363fdfd256648b59132a75edf6d00" kind="variable"><name>CameraModeInstances</name></member>
+    <member refid="classUFlexiCameraModeStack_1a8d637520aa55b4ef1aaaa9dd1aa97759" kind="variable"><name>CameraModeStack</name></member>
+    <member refid="classUFlexiCameraModeStack_1a9784319b502255f9f166d4fb72eb929d" kind="function"><name>UFlexiCameraModeStack</name></member>
+    <member refid="classUFlexiCameraModeStack_1a41bf454ac8694409f43edd92e073439f" kind="function"><name>ActivateStack</name></member>
+    <member refid="classUFlexiCameraModeStack_1ae9a18f4dedb7de2cfe987ce5bf8c7e08" kind="function"><name>DeactivateStack</name></member>
+    <member refid="classUFlexiCameraModeStack_1adae7d691492c64bb05c14fa6c579ab4b" kind="function"><name>IsStackActivate</name></member>
+    <member refid="classUFlexiCameraModeStack_1a13b60ec53a3d79cdadc93c3f15a181b8" kind="function"><name>PushCameraMode</name></member>
+    <member refid="classUFlexiCameraModeStack_1ae51127c5d7f9f78acf8e106a69c8ccb7" kind="function"><name>EvaluateStack</name></member>
+    <member refid="classUFlexiCameraModeStack_1aa35c3ce7bc84c570f54743f3155a38b4" kind="function"><name>GetBlendInfo</name></member>
+    <member refid="classUFlexiCameraModeStack_1ad21e56c9ed4a71fa92eb742f6a72c229" kind="function"><name>HasAnyTagOnStack</name></member>
+    <member refid="classUFlexiCameraModeStack_1aab61db8a7cf0de997c134d0b4855d0c7" kind="function"><name>GetCameraModeInstance</name></member>
+    <member refid="classUFlexiCameraModeStack_1aa3dde170dd65f48d07526ffcc1ee3077" kind="function"><name>UpdateStack</name></member>
+    <member refid="classUFlexiCameraModeStack_1a30b021748e1d8ccfed2f1ea740358556" kind="function"><name>BlendStack</name></member>
+  </compound>
+  <compound refid="classUFlexiCamInterface" kind="class"><name>UFlexiCamInterface</name>
+  </compound>
+  <compound refid="classUTopDownCameraMode" kind="class"><name>UTopDownCameraMode</name>
+    <member refid="classUTopDownCameraMode_1a18b13aea3d58123500329224608d5c65" kind="variable"><name>DefaultPivotRotation</name></member>
+    <member refid="classUTopDownCameraMode_1a8df8731c7a5c9c4e8b58dcff296faaed" kind="variable"><name>BoundsSizeToDistance</name></member>
+    <member refid="classUTopDownCameraMode_1a3981f7ca76e57c4a9b75fe4e74ba5f4e" kind="variable"><name>PivotLocation</name></member>
+    <member refid="classUTopDownCameraMode_1a6c886b9e06b0e0a56ff6e07b6b6d8d1a" kind="function"><name>UTopDownCameraMode</name></member>
+    <member refid="classUTopDownCameraMode_1ad03587925afb274bc56a5920ed6ca311" kind="function"><name>OnActivation</name></member>
+    <member refid="classUTopDownCameraMode_1ace4745a26340291a84d1deafd633191b" kind="function"><name>UpdateView_Implementation</name></member>
+    <member refid="classUTopDownCameraMode_1aa851259b785b6c327743b0ea78b1e1d3" kind="function"><name>GetTargetVolume</name></member>
+  </compound>
+  <compound refid="FlexiCameraMode_8cpp" kind="file"><name>FlexiCameraMode.cpp</name>
+  </compound>
+  <compound refid="FightingCameraMode_8cpp" kind="file"><name>FightingCameraMode.cpp</name>
+  </compound>
+  <compound refid="FlexiCamCharacter_8cpp" kind="file"><name>FlexiCamCharacter.cpp</name>
+  </compound>
+  <compound refid="FlexiCamPlayerController_8cpp" kind="file"><name>FlexiCamPlayerController.cpp</name>
+  </compound>
+  <compound refid="TopDownCameraMode_8cpp" kind="file"><name>TopDownCameraMode.cpp</name>
+  </compound>
+  <compound refid="TopDownCameraModeTrigger_8cpp" kind="file"><name>TopDownCameraModeTrigger.cpp</name>
+  </compound>
+  <compound refid="FlexiCam_8cpp" kind="file"><name>FlexiCam.cpp</name>
+    <member refid="FlexiCam_8cpp_1a0de3ae51f3a629a8e5d113f1b9390da7" kind="define"><name>LOCTEXT_NAMESPACE</name></member>
+  </compound>
+  <compound refid="FlexiCameraComponent_8cpp" kind="file"><name>FlexiCameraComponent.cpp</name>
+  </compound>
+  <compound refid="FlexiCameraModeManagerComponent_8cpp" kind="file"><name>FlexiCameraModeManagerComponent.cpp</name>
+  </compound>
+  <compound refid="FlexiCamInterface_8cpp" kind="file"><name>FlexiCamInterface.cpp</name>
+  </compound>
+  <compound refid="FlexiPlayerCameraManager_8cpp" kind="file"><name>FlexiPlayerCameraManager.cpp</name>
+  </compound>
+  <compound refid="FlexiCameraModeTrigger_8cpp" kind="file"><name>FlexiCameraModeTrigger.cpp</name>
+  </compound>
+  <compound refid="FlexiCamTags_8cpp" kind="file"><name>FlexiCamTags.cpp</name>
+    <member refid="FlexiCamTags_8cpp_1a78956d502acc0fb736e4501325f31b53" kind="function"><name>UE_DEFINE_GAMEPLAY_TAG</name></member>
+    <member refid="FlexiCamTags_8cpp_1a02519079a11707eb62e0e30000b4bc3b" kind="function"><name>UE_DEFINE_GAMEPLAY_TAG</name></member>
+  </compound>
+  <compound refid="FlexiCameraMode_8h" kind="file"><name>FlexiCameraMode.h</name>
+    <member refid="FlexiCameraMode_8h_1ae4a7cd61a4a015f877dd2b5c573000d6" kind="enum"><name>ECameraModeBlendFunction</name></member>
+    <member refid="FlexiCameraMode_8h_1ae4a7cd61a4a015f877dd2b5c573000d6a32a843da6ea40ab3b17a3421ccdf671b" kind="enumvalue"><name>Linear</name></member>
+    <member refid="FlexiCameraMode_8h_1ae4a7cd61a4a015f877dd2b5c573000d6a477b68e0e4cd72802355d52831fee0ca" kind="enumvalue"><name>EaseIn</name></member>
+    <member refid="FlexiCameraMode_8h_1ae4a7cd61a4a015f877dd2b5c573000d6a4d8256186c9d4f47eb7e7b7766812bd9" kind="enumvalue"><name>EaseOut</name></member>
+    <member refid="FlexiCameraMode_8h_1ae4a7cd61a4a015f877dd2b5c573000d6ab5a2f8abee775e5f5f4c30e031739365" kind="enumvalue"><name>EaseInOut</name></member>
+    <member refid="FlexiCameraMode_8h_1ae4a7cd61a4a015f877dd2b5c573000d6aa3f80d8f0f1b4ffa8c475f5d60ea5635" kind="enumvalue"><name>UMETA</name></member>
+  </compound>
+  <compound refid="FightingCameraMode_8h" kind="file"><name>FightingCameraMode.h</name>
+  </compound>
+  <compound refid="FlexiCamCharacter_8h" kind="file"><name>FlexiCamCharacter.h</name>
+  </compound>
+  <compound refid="FlexiCamPlayerController_8h" kind="file"><name>FlexiCamPlayerController.h</name>
+  </compound>
+  <compound refid="TopDownCameraMode_8h" kind="file"><name>TopDownCameraMode.h</name>
+  </compound>
+  <compound refid="TopDownCameraModeTrigger_8h" kind="file"><name>TopDownCameraModeTrigger.h</name>
+  </compound>
+  <compound refid="FlexiCam_8h" kind="file"><name>FlexiCam.h</name>
+  </compound>
+  <compound refid="FlexiCameraComponent_8h" kind="file"><name>FlexiCameraComponent.h</name>
+    <member refid="FlexiCameraComponent_8h_1a2cb6ac985e5133868af0f75cb0f1edbb" kind="variable"><name>meta</name></member>
+    <member refid="FlexiCameraComponent_8h_1a5a43eee71663cfd5f6f29defabd528bb" kind="function"><name>DECLARE_DELEGATE_RetVal</name></member>
+  </compound>
+  <compound refid="FlexiCameraModeManagerComponent_8h" kind="file"><name>FlexiCameraModeManagerComponent.h</name>
+  </compound>
+  <compound refid="FlexiCamInterface_8h" kind="file"><name>FlexiCamInterface.h</name>
+  </compound>
+  <compound refid="FlexiPlayerCameraManager_8h" kind="file"><name>FlexiPlayerCameraManager.h</name>
+    <member refid="FlexiPlayerCameraManager_8h_1a4b68e5b59c447c1bfbe22f111dd11bff" kind="define"><name>FLEXI_CAMERA_DEFAULT_FOV</name></member>
+    <member refid="FlexiPlayerCameraManager_8h_1acc85b8c890425ca300d21c1451368fb6" kind="define"><name>FLEXI_CAMERA_DEFAULT_PITCH_MIN</name></member>
+    <member refid="FlexiPlayerCameraManager_8h_1a4dbbda30cb3c59d2b54c96840e575a75" kind="define"><name>FLEXI_CAMERA_DEFAULT_PITCH_MAX</name></member>
+  </compound>
+  <compound refid="FlexiCameraModeTrigger_8h" kind="file"><name>FlexiCameraModeTrigger.h</name>
+  </compound>
+  <compound refid="FlexiCamTags_8h" kind="file"><name>FlexiCamTags.h</name>
+    <member refid="FlexiCamTags_8h_1ade8ab0a387b8adfeba40192923a30024" kind="function"><name>UE_DECLARE_GAMEPLAY_TAG_EXTERN</name></member>
+    <member refid="FlexiCamTags_8h_1ae51511f240d32f20905b8352b7f182bc" kind="function"><name>UE_DECLARE_GAMEPLAY_TAG_EXTERN</name></member>
+  </compound>
+  <compound refid="dir_9b887f589c02907c46171c4f20f0d5c8" kind="dir"><name>Source/FlexiCam/Private/CameraModes</name>
+  </compound>
+  <compound refid="dir_84b5c73bab400aad4609d36a8159f44b" kind="dir"><name>Source/FlexiCam/Public/CameraModes</name>
+  </compound>
+  <compound refid="dir_6b27a9e88764eabb2f71b914689a66ea" kind="dir"><name>Source/FlexiCam/Private/Examples</name>
+  </compound>
+  <compound refid="dir_d24cb03e715cfcb49bf958c561166156" kind="dir"><name>Source/FlexiCam/Public/Examples</name>
+  </compound>
+  <compound refid="dir_034e3f86ebbf7b5c63765051f6987407" kind="dir"><name>Source/FlexiCam</name>
+  </compound>
+  <compound refid="dir_5fe5f03aea230ec1797cb2b6c3e74631" kind="dir"><name>Source/FlexiCam/Private/Miscellaneous</name>
+  </compound>
+  <compound refid="dir_b057122e45aa8bd45ab36524bc638649" kind="dir"><name>Source/FlexiCam/Public/Miscellaneous</name>
+  </compound>
+  <compound refid="dir_19dab4a982fac4009ff3e3b1ed404c56" kind="dir"><name>Source/FlexiCam/Private</name>
+  </compound>
+  <compound refid="dir_9e8acde77c3f9f76496e888d83552b45" kind="dir"><name>Source/FlexiCam/Public</name>
+  </compound>
+  <compound refid="dir_74389ed8173ad57b461b9d623a1f3867" kind="dir"><name>Source</name>
+  </compound>
+</doxygenindex>

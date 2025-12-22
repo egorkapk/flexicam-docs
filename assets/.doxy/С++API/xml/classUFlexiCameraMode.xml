@@ -1,0 +1,555 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classUFlexiCameraMode" kind="class" language="C++" prot="public">
+    <compoundname>UFlexiCameraMode</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UObject</basecompoundref>
+    <derivedcompoundref refid="classUFightingCameraMode" prot="public" virt="non-virtual">UFightingCameraMode</derivedcompoundref>
+    <derivedcompoundref refid="classUTopDownCameraMode" prot="public" virt="non-virtual">UTopDownCameraMode</derivedcompoundref>
+    <includes refid="FlexiCameraMode_8h" local="no">FlexiCameraMode.h</includes>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classUFlexiCameraMode_1ad3497c417eaa2c9612a5ba9341c0679d" prot="protected" static="no" mutable="no">
+        <type>FGameplayTagContainer</type>
+        <definition>FGameplayTagContainer UFlexiCameraMode::CameraTypeTags</definition>
+        <argsstring></argsstring>
+        <name>CameraTypeTags</name>
+        <qualifiedname>UFlexiCameraMode::CameraTypeTags</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" line="120" column="23" bodyfile="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUFlexiCameraMode_1af5930e99d051c0438e8a1e61786bbed8" prot="protected" static="no" mutable="no">
+        <type><ref refid="structFFlexiCameraModeView" kindref="compound">FFlexiCameraModeView</ref></type>
+        <definition>FFlexiCameraModeView UFlexiCameraMode::ModeView</definition>
+        <argsstring></argsstring>
+        <name>ModeView</name>
+        <qualifiedname>UFlexiCameraMode::ModeView</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" line="124" column="22" bodyfile="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUFlexiCameraMode_1a950184dd09e227680d7a019b3bc6532d" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UFlexiCameraMode::FieldOfView</definition>
+        <argsstring></argsstring>
+        <name>FieldOfView</name>
+        <qualifiedname>UFlexiCameraMode::FieldOfView</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" line="128" column="7" bodyfile="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUFlexiCameraMode_1a49b61190403638ba28b29878c3527b54" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UFlexiCameraMode::ViewPitchMin</definition>
+        <argsstring></argsstring>
+        <name>ViewPitchMin</name>
+        <qualifiedname>UFlexiCameraMode::ViewPitchMin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" line="132" column="7" bodyfile="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUFlexiCameraMode_1a03a610799b2d5235ba4af0e18490097c" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UFlexiCameraMode::ViewPitchMax</definition>
+        <argsstring></argsstring>
+        <name>ViewPitchMax</name>
+        <qualifiedname>UFlexiCameraMode::ViewPitchMax</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" line="136" column="7" bodyfile="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUFlexiCameraMode_1a3e1397704cf212736a1ff74bec4485c2" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UFlexiCameraMode::BlendTime</definition>
+        <argsstring></argsstring>
+        <name>BlendTime</name>
+        <qualifiedname>UFlexiCameraMode::BlendTime</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" line="140" column="7" bodyfile="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUFlexiCameraMode_1ad8286d92bcdd029a50eeceb7c2db9979" prot="protected" static="no" mutable="no">
+        <type>ECameraModeBlendFunction</type>
+        <definition>ECameraModeBlendFunction UFlexiCameraMode::BlendFunction</definition>
+        <argsstring></argsstring>
+        <name>BlendFunction</name>
+        <qualifiedname>UFlexiCameraMode::BlendFunction</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" line="144" column="26" bodyfile="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUFlexiCameraMode_1a8f53b7efe98d7f64985ccc634e7081ec" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UFlexiCameraMode::BlendExponent</definition>
+        <argsstring></argsstring>
+        <name>BlendExponent</name>
+        <qualifiedname>UFlexiCameraMode::BlendExponent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" line="148" column="7" bodyfile="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUFlexiCameraMode_1a4ea5fcd80ac165319c3b0f4b0bbe0b5a" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UFlexiCameraMode::BlendAlpha</definition>
+        <argsstring></argsstring>
+        <name>BlendAlpha</name>
+        <qualifiedname>UFlexiCameraMode::BlendAlpha</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" line="151" column="7" bodyfile="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUFlexiCameraMode_1a8388d7138c6f2f1f0f426ba9a56ae7a1" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UFlexiCameraMode::BlendWeight</definition>
+        <argsstring></argsstring>
+        <name>BlendWeight</name>
+        <qualifiedname>UFlexiCameraMode::BlendWeight</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" line="154" column="7" bodyfile="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUFlexiCameraMode_1a137102e1dcf4f9e0ffbb064f2b46f865" prot="protected" static="no" mutable="no">
+        <type>uint32</type>
+        <definition>uint32 UFlexiCameraMode::bResetInterpolation</definition>
+        <argsstring></argsstring>
+        <name>bResetInterpolation</name>
+        <qualifiedname>UFlexiCameraMode::bResetInterpolation</qualifiedname>
+        <bitfield> 1</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If true, skips all interpolation and puts camera in ideal location. Automatically set to false next frame. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" line="159" column="8" bodyfile="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" bodystart="159" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classUFlexiCameraMode_1ada8295535cf7dee078e3477d383bc21c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>UFlexiCameraMode::UFlexiCameraMode</definition>
+        <argsstring>()</argsstring>
+        <name>UFlexiCameraMode</name>
+        <qualifiedname>UFlexiCameraMode::UFlexiCameraMode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" line="77" column="1" bodyfile="Source/FlexiCam/Private/CameraModes/FlexiCameraMode.cpp" bodystart="47" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classUFlexiCameraMode_1afa231af0bee579090ed8e0fdde1f0923" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>UFlexiCameraComponent *</type>
+        <definition>UFlexiCameraComponent * UFlexiCameraMode::GetFlexiCameraComponent</definition>
+        <argsstring>() const</argsstring>
+        <name>GetFlexiCameraComponent</name>
+        <qualifiedname>UFlexiCameraMode::GetFlexiCameraComponent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" line="79" column="23" bodyfile="Source/FlexiCam/Private/CameraModes/FlexiCameraMode.cpp" bodystart="61" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classUFlexiCameraMode_1a807639825027954d9525da0ff9f09a30" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>UWorld *</type>
+        <definition>UWorld * UFlexiCameraMode::GetWorld</definition>
+        <argsstring>() const override</argsstring>
+        <name>GetWorld</name>
+        <qualifiedname>UFlexiCameraMode::GetWorld</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" line="81" column="16" bodyfile="Source/FlexiCam/Private/CameraModes/FlexiCameraMode.cpp" bodystart="66" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classUFlexiCameraMode_1a44a00ebb9f048ba69637bfa6e00bb174" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>AActor *</type>
+        <definition>AActor * UFlexiCameraMode::GetTargetActor</definition>
+        <argsstring>() const</argsstring>
+        <name>GetTargetActor</name>
+        <qualifiedname>UFlexiCameraMode::GetTargetActor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" line="83" column="8" bodyfile="Source/FlexiCam/Private/CameraModes/FlexiCameraMode.cpp" bodystart="72" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classUFlexiCameraMode_1ac1439d46653a7a18a3be516ef7bceac9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UFlexiCameraMode::UpdateCameraMode</definition>
+        <argsstring>(float DeltaTime)</argsstring>
+        <name>UpdateCameraMode</name>
+        <qualifiedname>UFlexiCameraMode::UpdateCameraMode</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>DeltaTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" line="84" column="6" bodyfile="Source/FlexiCam/Private/CameraModes/FlexiCameraMode.cpp" bodystart="79" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classUFlexiCameraMode_1a87ab10f204922941bb5a6f2d91ca90c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UFlexiCameraMode::SetBlendWeight</definition>
+        <argsstring>(float Weight)</argsstring>
+        <name>SetBlendWeight</name>
+        <qualifiedname>UFlexiCameraMode::SetBlendWeight</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>Weight</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" line="85" column="6" bodyfile="Source/FlexiCam/Private/CameraModes/FlexiCameraMode.cpp" bodystart="85" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="classUFlexiCameraMode_1a4bde481bbfa9034c911214e1eb8b2f10" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UFlexiCameraMode::OnActivation</definition>
+        <argsstring>()</argsstring>
+        <name>OnActivation</name>
+        <qualifiedname>UFlexiCameraMode::OnActivation</qualifiedname>
+        <reimplementedby refid="classUTopDownCameraMode_1ad03587925afb274bc56a5920ed6ca311">OnActivation</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" line="89" column="14" bodyfile="Source/FlexiCam/Private/CameraModes/FlexiCameraMode.cpp" bodystart="116" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="classUFlexiCameraMode_1a103c68934be1a01c77c5ce20999cb03d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UFlexiCameraMode::OnActivation_Event</definition>
+        <argsstring>()</argsstring>
+        <name>OnActivation_Event</name>
+        <qualifiedname>UFlexiCameraMode::OnActivation_Event</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" line="91" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classUFlexiCameraMode_1af9d098072870d25e281472af27805ad3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UFlexiCameraMode::OnDeactivation</definition>
+        <argsstring>()</argsstring>
+        <name>OnDeactivation</name>
+        <qualifiedname>UFlexiCameraMode::OnDeactivation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" line="94" column="14" bodyfile="Source/FlexiCam/Private/CameraModes/FlexiCameraMode.cpp" bodystart="124" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="classUFlexiCameraMode_1ac71ae44800f4c37ad91acc4ecc36f05f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UFlexiCameraMode::OnDeactivation_Event</definition>
+        <argsstring>()</argsstring>
+        <name>OnDeactivation_Event</name>
+        <qualifiedname>UFlexiCameraMode::OnDeactivation_Event</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" line="96" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classUFlexiCameraMode_1a605936d6ede886252c551f22d28f3842" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="structFFlexiCameraModeView" kindref="compound">FFlexiCameraModeView</ref> &amp;</type>
+        <definition>const FFlexiCameraModeView &amp; UFlexiCameraMode::GetCameraModeView</definition>
+        <argsstring>() const</argsstring>
+        <name>GetCameraModeView</name>
+        <qualifiedname>UFlexiCameraMode::GetCameraModeView</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" line="98" column="28" bodyfile="Source/FlexiCam/Private/CameraModes/FlexiCameraMode.cpp" bodystart="133" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="classUFlexiCameraMode_1a1da5974facea9b9eb7aab0dcb84a936b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float UFlexiCameraMode::GetBlendTime</definition>
+        <argsstring>() const</argsstring>
+        <name>GetBlendTime</name>
+        <qualifiedname>UFlexiCameraMode::GetBlendTime</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" line="99" column="7" bodyfile="Source/FlexiCam/Private/CameraModes/FlexiCameraMode.cpp" bodystart="138" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="classUFlexiCameraMode_1a106306701bdccb5d263b89595d807b2d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float UFlexiCameraMode::GetBlendWeight</definition>
+        <argsstring>() const</argsstring>
+        <name>GetBlendWeight</name>
+        <qualifiedname>UFlexiCameraMode::GetBlendWeight</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" line="100" column="7" bodyfile="Source/FlexiCam/Private/CameraModes/FlexiCameraMode.cpp" bodystart="143" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="classUFlexiCameraMode_1abe897e59fbfa437b618905be1bbc7e3a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>FGameplayTag</type>
+        <definition>FGameplayTag UFlexiCameraMode::GetCameraTypeTag</definition>
+        <argsstring>() const</argsstring>
+        <name>GetCameraTypeTag</name>
+        <qualifiedname>UFlexiCameraMode::GetCameraTypeTag</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" line="101" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classUFlexiCameraMode_1a6c68233eec86392946fdda5c24ea917e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const FGameplayTagContainer &amp;</type>
+        <definition>const FGameplayTagContainer &amp; UFlexiCameraMode::GetTagContainer</definition>
+        <argsstring>() const</argsstring>
+        <name>GetTagContainer</name>
+        <qualifiedname>UFlexiCameraMode::GetTagContainer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" line="102" column="29" bodyfile="Source/FlexiCam/Private/CameraModes/FlexiCameraMode.cpp" bodystart="148" bodyend="151"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classUFlexiCameraMode_1aad4c32d8226e36c5e796e9ee51d150c8" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>FVector</type>
+        <definition>FVector UFlexiCameraMode::GetPivotLocation</definition>
+        <argsstring>() const</argsstring>
+        <name>GetPivotLocation</name>
+        <qualifiedname>UFlexiCameraMode::GetPivotLocation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" line="106" column="17" bodyfile="Source/FlexiCam/Private/CameraModes/FlexiCameraMode.cpp" bodystart="153" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="classUFlexiCameraMode_1a68aa0371fe2d82f6f9a3f105cb85bd31" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>FRotator</type>
+        <definition>FRotator UFlexiCameraMode::GetPivotRotation</definition>
+        <argsstring>() const</argsstring>
+        <name>GetPivotRotation</name>
+        <qualifiedname>UFlexiCameraMode::GetPivotRotation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" line="108" column="18" bodyfile="Source/FlexiCam/Private/CameraModes/FlexiCameraMode.cpp" bodystart="185" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="function" id="classUFlexiCameraMode_1a4257b0fb8f8e890b5e74ad32e767982c" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UFlexiCameraMode::UpdateView</definition>
+        <argsstring>(float DeltaTime)</argsstring>
+        <name>UpdateView</name>
+        <qualifiedname>UFlexiCameraMode::UpdateView</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>DeltaTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" line="111" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classUFlexiCameraMode_1a8484a1ac604a7a4fefca2b9ac21e0d72" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UFlexiCameraMode::UpdateView_Implementation</definition>
+        <argsstring>(float DeltaTime)</argsstring>
+        <name>UpdateView_Implementation</name>
+        <qualifiedname>UFlexiCameraMode::UpdateView_Implementation</qualifiedname>
+        <reimplementedby refid="classUFightingCameraMode_1a649bd9482c3d5284ec58f55a5d292d2b">UpdateView_Implementation</reimplementedby>
+        <reimplementedby refid="classUTopDownCameraMode_1ace4745a26340291a84d1deafd633191b">UpdateView_Implementation</reimplementedby>
+        <param>
+          <type>float</type>
+          <declname>DeltaTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" line="112" column="14" bodyfile="Source/FlexiCam/Private/CameraModes/FlexiCameraMode.cpp" bodystart="198" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="function" id="classUFlexiCameraMode_1a621d1563a16194fb5f7d55a1e6d3e6ac" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UFlexiCameraMode::UpdateBlending</definition>
+        <argsstring>(float DeltaTime)</argsstring>
+        <name>UpdateBlending</name>
+        <qualifiedname>UFlexiCameraMode::UpdateBlending</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>DeltaTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" line="114" column="14" bodyfile="Source/FlexiCam/Private/CameraModes/FlexiCameraMode.cpp" bodystart="211" bodyend="247"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Base class for all FlexiCam camera modes </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>UFightingCameraMode</label>
+        <link refid="classUFightingCameraMode"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>UFlexiCameraMode</label>
+        <link refid="classUFlexiCameraMode"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>UObject</label>
+      </node>
+      <node id="4">
+        <label>UTopDownCameraMode</label>
+        <link refid="classUTopDownCameraMode"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>FFlexiCameraModeView</label>
+        <link refid="structFFlexiCameraModeView"/>
+      </node>
+      <node id="1">
+        <label>UFlexiCameraMode</label>
+        <link refid="classUFlexiCameraMode"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>ModeView</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>UObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" line="71" column="1" bodyfile="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" bodystart="72" bodyend="160"/>
+    <listofallmembers>
+      <member refid="classUFlexiCameraMode_1a4ea5fcd80ac165319c3b0f4b0bbe0b5a" prot="protected" virt="non-virtual"><scope>UFlexiCameraMode</scope><name>BlendAlpha</name></member>
+      <member refid="classUFlexiCameraMode_1a8f53b7efe98d7f64985ccc634e7081ec" prot="protected" virt="non-virtual"><scope>UFlexiCameraMode</scope><name>BlendExponent</name></member>
+      <member refid="classUFlexiCameraMode_1ad8286d92bcdd029a50eeceb7c2db9979" prot="protected" virt="non-virtual"><scope>UFlexiCameraMode</scope><name>BlendFunction</name></member>
+      <member refid="classUFlexiCameraMode_1a3e1397704cf212736a1ff74bec4485c2" prot="protected" virt="non-virtual"><scope>UFlexiCameraMode</scope><name>BlendTime</name></member>
+      <member refid="classUFlexiCameraMode_1a8388d7138c6f2f1f0f426ba9a56ae7a1" prot="protected" virt="non-virtual"><scope>UFlexiCameraMode</scope><name>BlendWeight</name></member>
+      <member refid="classUFlexiCameraMode_1a137102e1dcf4f9e0ffbb064f2b46f865" prot="protected" virt="non-virtual"><scope>UFlexiCameraMode</scope><name>bResetInterpolation</name></member>
+      <member refid="classUFlexiCameraMode_1ad3497c417eaa2c9612a5ba9341c0679d" prot="protected" virt="non-virtual"><scope>UFlexiCameraMode</scope><name>CameraTypeTags</name></member>
+      <member refid="classUFlexiCameraMode_1a950184dd09e227680d7a019b3bc6532d" prot="protected" virt="non-virtual"><scope>UFlexiCameraMode</scope><name>FieldOfView</name></member>
+      <member refid="classUFlexiCameraMode_1a1da5974facea9b9eb7aab0dcb84a936b" prot="public" virt="non-virtual"><scope>UFlexiCameraMode</scope><name>GetBlendTime</name></member>
+      <member refid="classUFlexiCameraMode_1a106306701bdccb5d263b89595d807b2d" prot="public" virt="non-virtual"><scope>UFlexiCameraMode</scope><name>GetBlendWeight</name></member>
+      <member refid="classUFlexiCameraMode_1a605936d6ede886252c551f22d28f3842" prot="public" virt="non-virtual"><scope>UFlexiCameraMode</scope><name>GetCameraModeView</name></member>
+      <member refid="classUFlexiCameraMode_1abe897e59fbfa437b618905be1bbc7e3a" prot="public" virt="non-virtual"><scope>UFlexiCameraMode</scope><name>GetCameraTypeTag</name></member>
+      <member refid="classUFlexiCameraMode_1afa231af0bee579090ed8e0fdde1f0923" prot="public" virt="non-virtual"><scope>UFlexiCameraMode</scope><name>GetFlexiCameraComponent</name></member>
+      <member refid="classUFlexiCameraMode_1aad4c32d8226e36c5e796e9ee51d150c8" prot="protected" virt="virtual"><scope>UFlexiCameraMode</scope><name>GetPivotLocation</name></member>
+      <member refid="classUFlexiCameraMode_1a68aa0371fe2d82f6f9a3f105cb85bd31" prot="protected" virt="virtual"><scope>UFlexiCameraMode</scope><name>GetPivotRotation</name></member>
+      <member refid="classUFlexiCameraMode_1a6c68233eec86392946fdda5c24ea917e" prot="public" virt="non-virtual"><scope>UFlexiCameraMode</scope><name>GetTagContainer</name></member>
+      <member refid="classUFlexiCameraMode_1a44a00ebb9f048ba69637bfa6e00bb174" prot="public" virt="non-virtual"><scope>UFlexiCameraMode</scope><name>GetTargetActor</name></member>
+      <member refid="classUFlexiCameraMode_1a807639825027954d9525da0ff9f09a30" prot="public" virt="virtual"><scope>UFlexiCameraMode</scope><name>GetWorld</name></member>
+      <member refid="classUFlexiCameraMode_1af5930e99d051c0438e8a1e61786bbed8" prot="protected" virt="non-virtual"><scope>UFlexiCameraMode</scope><name>ModeView</name></member>
+      <member refid="classUFlexiCameraMode_1a4bde481bbfa9034c911214e1eb8b2f10" prot="public" virt="virtual"><scope>UFlexiCameraMode</scope><name>OnActivation</name></member>
+      <member refid="classUFlexiCameraMode_1a103c68934be1a01c77c5ce20999cb03d" prot="public" virt="non-virtual"><scope>UFlexiCameraMode</scope><name>OnActivation_Event</name></member>
+      <member refid="classUFlexiCameraMode_1af9d098072870d25e281472af27805ad3" prot="public" virt="virtual"><scope>UFlexiCameraMode</scope><name>OnDeactivation</name></member>
+      <member refid="classUFlexiCameraMode_1ac71ae44800f4c37ad91acc4ecc36f05f" prot="public" virt="non-virtual"><scope>UFlexiCameraMode</scope><name>OnDeactivation_Event</name></member>
+      <member refid="classUFlexiCameraMode_1a87ab10f204922941bb5a6f2d91ca90c7" prot="public" virt="non-virtual"><scope>UFlexiCameraMode</scope><name>SetBlendWeight</name></member>
+      <member refid="classUFlexiCameraMode_1ada8295535cf7dee078e3477d383bc21c" prot="public" virt="non-virtual"><scope>UFlexiCameraMode</scope><name>UFlexiCameraMode</name></member>
+      <member refid="classUFlexiCameraMode_1a621d1563a16194fb5f7d55a1e6d3e6ac" prot="protected" virt="virtual"><scope>UFlexiCameraMode</scope><name>UpdateBlending</name></member>
+      <member refid="classUFlexiCameraMode_1ac1439d46653a7a18a3be516ef7bceac9" prot="public" virt="non-virtual"><scope>UFlexiCameraMode</scope><name>UpdateCameraMode</name></member>
+      <member refid="classUFlexiCameraMode_1a4257b0fb8f8e890b5e74ad32e767982c" prot="protected" virt="non-virtual"><scope>UFlexiCameraMode</scope><name>UpdateView</name></member>
+      <member refid="classUFlexiCameraMode_1a8484a1ac604a7a4fefca2b9ac21e0d72" prot="protected" virt="virtual"><scope>UFlexiCameraMode</scope><name>UpdateView_Implementation</name></member>
+      <member refid="classUFlexiCameraMode_1a03a610799b2d5235ba4af0e18490097c" prot="protected" virt="non-virtual"><scope>UFlexiCameraMode</scope><name>ViewPitchMax</name></member>
+      <member refid="classUFlexiCameraMode_1a49b61190403638ba28b29878c3527b54" prot="protected" virt="non-virtual"><scope>UFlexiCameraMode</scope><name>ViewPitchMin</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

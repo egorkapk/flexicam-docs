@@ -1,0 +1,306 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="FlexiCameraMode_8h" kind="file" language="C++">
+    <compoundname>FlexiCameraMode.h</compoundname>
+    <includes local="yes">CoreMinimal.h</includes>
+    <includes local="yes">UObject/Object.h</includes>
+    <includes local="yes">GameplayTagContainer.h</includes>
+    <includes local="yes">FlexiCameraMode.generated.h</includes>
+    <includedby refid="FlexiCameraMode_8cpp" local="yes">Source/FlexiCam/Private/CameraModes/FlexiCameraMode.cpp</includedby>
+    <includedby refid="FlexiCameraComponent_8cpp" local="yes">Source/FlexiCam/Private/FlexiCameraComponent.cpp</includedby>
+    <includedby refid="FlexiCameraModeManagerComponent_8cpp" local="yes">Source/FlexiCam/Private/FlexiCameraModeManagerComponent.cpp</includedby>
+    <includedby refid="FightingCameraMode_8h" local="yes">Source/FlexiCam/Public/Examples/FightingCameraMode.h</includedby>
+    <includedby refid="TopDownCameraMode_8h" local="yes">Source/FlexiCam/Public/Examples/TopDownCameraMode.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h</label>
+        <link refid="FlexiCameraMode_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>CoreMinimal.h</label>
+      </node>
+      <node id="5">
+        <label>FlexiCameraMode.generated.h</label>
+      </node>
+      <node id="4">
+        <label>GameplayTagContainer.h</label>
+      </node>
+      <node id="3">
+        <label>UObject/Object.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h</label>
+        <link refid="FlexiCameraMode_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Source/FlexiCam/Public/Examples/FightingCameraMode.h</label>
+        <link refid="FightingCameraMode_8h_source"/>
+      </node>
+      <node id="3">
+        <label>Source/FlexiCam/Public/Examples/TopDownCameraMode.h</label>
+        <link refid="TopDownCameraMode_8h_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structFFlexiCameraModeView" prot="public">FFlexiCameraModeView</innerclass>
+    <innerclass refid="classUFlexiCameraMode" prot="public">UFlexiCameraMode</innerclass>
+    <innerclass refid="classUFlexiCameraModeStack" prot="public">UFlexiCameraModeStack</innerclass>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="FlexiCameraMode_8h_1ae4a7cd61a4a015f877dd2b5c573000d6" prot="public" static="no" strong="yes">
+        <type>uint8</type>
+        <name>ECameraModeBlendFunction</name>
+        <enumvalue id="FlexiCameraMode_8h_1ae4a7cd61a4a015f877dd2b5c573000d6a32a843da6ea40ab3b17a3421ccdf671b" prot="public">
+          <name>Linear</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="FlexiCameraMode_8h_1ae4a7cd61a4a015f877dd2b5c573000d6a477b68e0e4cd72802355d52831fee0ca" prot="public">
+          <name>EaseIn</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="FlexiCameraMode_8h_1ae4a7cd61a4a015f877dd2b5c573000d6a4d8256186c9d4f47eb7e7b7766812bd9" prot="public">
+          <name>EaseOut</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="FlexiCameraMode_8h_1ae4a7cd61a4a015f877dd2b5c573000d6ab5a2f8abee775e5f5f4c30e031739365" prot="public">
+          <name>EaseInOut</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="FlexiCameraMode_8h_1ae4a7cd61a4a015f877dd2b5c573000d6aa3f80d8f0f1b4ffa8c475f5d60ea5635" prot="public">
+          <name>UMETA</name>
+          <initializer>=(Hidden)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>ECameraModeBlendFunction</para>
+<para>Blend function used for transitioning between camera modes. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" line="21" column="1" bodyfile="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" bodystart="22" bodyend="36"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Copyright<sp/>(c)<sp/>2025<sp/>Egor<sp/>Ermakov.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;CoreMinimal.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;UObject/Object.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;GameplayTagContainer.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;FlexiCameraMode.generated.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">AActor;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">UFlexiCameraComponent;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">UENUM(BlueprintType)</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/>ECameraModeBlendFunction<sp/>:<sp/>uint8</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Does<sp/>a<sp/>simple<sp/>linear<sp/>interpolation.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>Linear,</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Immediately<sp/>accelerates,<sp/>but<sp/>smoothly<sp/>decelerates<sp/>into<sp/>the<sp/>target.<sp/><sp/>Ease<sp/>amount<sp/>controlled<sp/>by<sp/>the<sp/>exponent.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>EaseIn,</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Smoothly<sp/>accelerates,<sp/>but<sp/>does<sp/>not<sp/>decelerate<sp/>into<sp/>the<sp/>target.<sp/><sp/>Ease<sp/>amount<sp/>controlled<sp/>by<sp/>the<sp/>exponent.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>EaseOut,</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Smoothly<sp/>accelerates<sp/>and<sp/>decelerates.<sp/><sp/>Ease<sp/>amount<sp/>controlled<sp/>by<sp/>the<sp/>exponent.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>EaseInOut,</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>COUNT<sp/><sp/><sp/>UMETA(Hidden)</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal">USTRUCT(BlueprintType)</highlight></codeline>
+<codeline lineno="45" refid="structFFlexiCameraModeView" refkind="compound"><highlight class="normal">struct<sp/><ref refid="structFFlexiCameraModeView" kindref="compound">FFlexiCameraModeView</ref></highlight></codeline>
+<codeline lineno="46"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structFFlexiCameraModeView" kindref="compound">FFlexiCameraModeView</ref>();</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Blend(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structFFlexiCameraModeView" kindref="compound">FFlexiCameraModeView</ref>&amp;<sp/>Other,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>OtherWeight);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadWrite,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;FlexiCamera|CameraModeView&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>FVector<sp/>Location;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadWrite,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;FlexiCamera|CameraModeView&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>FRotator<sp/>Rotation;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadWrite,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;FlexiCamera|CameraModeView&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>FRotator<sp/>ControlRotation;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadWrite,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;FlexiCamera|CameraModeView&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>FieldOfView;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal">UCLASS(Abstract,<sp/>Blueprintable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;FlexiCamera&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="71" refid="classUFlexiCameraMode" refkind="compound"><highlight class="normal">class<sp/>FLEXICAM_API<sp/><ref refid="classUFlexiCameraMode" kindref="compound">UFlexiCameraMode</ref><sp/>:<sp/>public<sp/>UObject</highlight></codeline>
+<codeline lineno="72"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classUFlexiCameraMode" kindref="compound">UFlexiCameraMode</ref>();</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintPure,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;FlexiCamera|CameraMode&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>UFlexiCameraComponent*<sp/>GetFlexiCameraComponent()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintPure,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;FlexiCamera|CameraMode&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>UWorld*<sp/>GetWorld()<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintPure,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;FlexiCamera|CameraMode&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>AActor*<sp/>GetTargetActor()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>UpdateCameraMode(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>DeltaTime);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SetBlendWeight(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>Weight);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Called<sp/>when<sp/>this<sp/>camera<sp/>mode<sp/>is<sp/>activated<sp/>on<sp/>the<sp/>camera<sp/>mode<sp/>stack.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>OnActivation();</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintImplementableEvent,<sp/>meta<sp/>=<sp/>(DisplayName<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;On<sp/>Activation&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>OnActivation_Event();</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Called<sp/>when<sp/>this<sp/>camera<sp/>mode<sp/>is<sp/>deactivated<sp/>on<sp/>the<sp/>camera<sp/>mode<sp/>stack.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>OnDeactivation();</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintImplementableEvent,<sp/>meta<sp/>=<sp/>(DisplayName<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;On<sp/>Deactivation&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>OnDeactivation_Event();</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structFFlexiCameraModeView" kindref="compound">FFlexiCameraModeView</ref>&amp;<sp/>GetCameraModeView()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>GetBlendTime()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>GetBlendWeight()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>FGameplayTag<sp/>GetCameraTypeTag()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FGameplayTagContainer&amp;<sp/>GetTagContainer()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;FlexiCamera|CameraMode&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>FVector<sp/>GetPivotLocation()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;FlexiCamera|CameraMode&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>FRotator<sp/>GetPivotRotation()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintNativeEvent,<sp/>BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;FlexiCamera|CameraMode&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>UpdateView(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>DeltaTime);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>UpdateView_Implementation(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>DeltaTime);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>UpdateBlending(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>DeltaTime);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>A<sp/>tags<sp/>that<sp/>can<sp/>be<sp/>queried<sp/>by<sp/>gameplay<sp/>code<sp/>that<sp/>cares<sp/>when<sp/>a<sp/>kind<sp/>of<sp/>camera<sp/>mode<sp/>is<sp/>active</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>without<sp/>having<sp/>to<sp/>ask<sp/>about<sp/>a<sp/>specific<sp/>mode.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditDefaultsOnly,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Blending&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>FGameplayTagContainer<sp/>CameraTypeTags;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>View<sp/>output<sp/>produced<sp/>by<sp/>the<sp/>camera<sp/>mode.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(BlueprintReadWrite,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;FlexiCamera|CameraMode&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structFFlexiCameraModeView" kindref="compound">FFlexiCameraModeView</ref><sp/>ModeView;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>The<sp/>horizontal<sp/>field<sp/>of<sp/>view<sp/>(in<sp/>degrees).</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditDefaultsOnly,<sp/>BlueprintReadOnly,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;View&quot;</highlight><highlight class="normal">,<sp/>Meta<sp/>=<sp/>(UIMin<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;5.0&quot;</highlight><highlight class="normal">,<sp/>UIMax<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;170&quot;</highlight><highlight class="normal">,<sp/>ClampMin<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;5.0&quot;</highlight><highlight class="normal">,<sp/>ClampMax<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;170.0&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>FieldOfView;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Minimum<sp/>view<sp/>pitch<sp/>(in<sp/>degrees).</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditDefaultsOnly,<sp/>BlueprintReadOnly,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;View&quot;</highlight><highlight class="normal">,<sp/>Meta<sp/>=<sp/>(UIMin<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;-89.9&quot;</highlight><highlight class="normal">,<sp/>UIMax<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;89.9&quot;</highlight><highlight class="normal">,<sp/>ClampMin<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;-89.9&quot;</highlight><highlight class="normal">,<sp/>ClampMax<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;89.9&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>ViewPitchMin;</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Maximum<sp/>view<sp/>pitch<sp/>(in<sp/>degrees).</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditDefaultsOnly,<sp/>BlueprintReadOnly,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;View&quot;</highlight><highlight class="normal">,<sp/>Meta<sp/>=<sp/>(UIMin<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;-89.9&quot;</highlight><highlight class="normal">,<sp/>UIMax<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;89.9&quot;</highlight><highlight class="normal">,<sp/>ClampMin<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;-89.9&quot;</highlight><highlight class="normal">,<sp/>ClampMax<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;89.9&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>ViewPitchMax;</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>How<sp/>long<sp/>it<sp/>takes<sp/>to<sp/>blend<sp/>in<sp/>this<sp/>mode.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditDefaultsOnly,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Blending&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>BlendTime;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Function<sp/>used<sp/>for<sp/>blending.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditDefaultsOnly,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Blending&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/>ECameraModeBlendFunction<sp/>BlendFunction;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Exponent<sp/>used<sp/>by<sp/>blend<sp/>functions<sp/>to<sp/>control<sp/>the<sp/>shape<sp/>of<sp/>the<sp/>curve.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditDefaultsOnly,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Blending&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>BlendExponent;</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Linear<sp/>blend<sp/>alpha<sp/>used<sp/>to<sp/>determine<sp/>the<sp/>blend<sp/>weight.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>BlendAlpha;</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Blend<sp/>weight<sp/>calculated<sp/>using<sp/>the<sp/>blend<sp/>alpha<sp/>and<sp/>function.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>BlendWeight;</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(transient)</highlight></codeline>
+<codeline lineno="159" refid="classUFlexiCameraMode_1a137102e1dcf4f9e0ffbb064f2b46f865" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32<sp/>bResetInterpolation<sp/>:<sp/>1;</highlight></codeline>
+<codeline lineno="160"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal">UCLASS()</highlight></codeline>
+<codeline lineno="169" refid="classUFlexiCameraModeStack" refkind="compound"><highlight class="normal">class<sp/><ref refid="classUFlexiCameraModeStack" kindref="compound">UFlexiCameraModeStack</ref><sp/>:<sp/>public<sp/>UObject</highlight></codeline>
+<codeline lineno="170"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classUFlexiCameraModeStack" kindref="compound">UFlexiCameraModeStack</ref>();</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ActivateStack();</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>DeactivateStack();</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>IsStackActivate()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>PushCameraMode(TSubclassOf&lt;UFlexiCameraMode&gt;<sp/>CameraModeClass);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>EvaluateStack(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>DeltaTime,<sp/><ref refid="structFFlexiCameraModeView" kindref="compound">FFlexiCameraModeView</ref>&amp;<sp/>OutCameraModeView);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Gets<sp/>the<sp/>tag<sp/>associated<sp/>with<sp/>the<sp/>top<sp/>layer<sp/>and<sp/>the<sp/>blend<sp/>weight<sp/>of<sp/>it</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>GetBlendInfo(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">&amp;<sp/>OutWeightOfTopLayer,<sp/>FGameplayTagContainer&amp;<sp/>OutTagsOfTopLayer)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>HasAnyTagOnStack(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FGameplayTagContainer&amp;<sp/>TagsToCheck);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classUFlexiCameraMode" kindref="compound">UFlexiCameraMode</ref>*<sp/>GetCameraModeInstance(TSubclassOf&lt;UFlexiCameraMode&gt;<sp/>CameraModeClass);</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>UpdateStack(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>DeltaTime);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>BlendStack(<ref refid="structFFlexiCameraModeView" kindref="compound">FFlexiCameraModeView</ref>&amp;<sp/>OutCameraModeView)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>bIsActive;</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY()</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/>TArray&lt;TObjectPtr&lt;UFlexiCameraMode&gt;&gt;<sp/>CameraModeInstances;</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY()</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/>TArray&lt;TObjectPtr&lt;UFlexiCameraMode&gt;&gt;<sp/>CameraModeStack;</highlight></codeline>
+<codeline lineno="206"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h"/>
+  </compounddef>
+</doxygen>

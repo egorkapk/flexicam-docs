@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classAFlexiCameraModeTrigger" kind="class" language="C++" prot="public">
+    <compoundname>AFlexiCameraModeTrigger</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AActor</basecompoundref>
+    <derivedcompoundref refid="classATopDownCameraModeTrigger" prot="public" virt="non-virtual">ATopDownCameraModeTrigger</derivedcompoundref>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classAFlexiCameraModeTrigger_1a3736bb24fc2f53459841c31f53fafae2" prot="protected" static="no" mutable="no">
+        <type>TObjectPtr&lt; UBoxComponent &gt;</type>
+        <definition>TObjectPtr&lt;UBoxComponent&gt; AFlexiCameraModeTrigger::TriggerVolume</definition>
+        <argsstring></argsstring>
+        <name>TriggerVolume</name>
+        <qualifiedname>AFlexiCameraModeTrigger::TriggerVolume</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/Miscellaneous/FlexiCameraModeTrigger.h" line="32" column="12" bodyfile="Source/FlexiCam/Public/Miscellaneous/FlexiCameraModeTrigger.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAFlexiCameraModeTrigger_1a82765b11928613fae25fcb7d6f82e311" prot="protected" static="no" mutable="no">
+        <type>TSubclassOf&lt; class <ref refid="classUFlexiCameraMode" kindref="compound">UFlexiCameraMode</ref> &gt;</type>
+        <definition>TSubclassOf&lt;class UFlexiCameraMode&gt; AFlexiCameraModeTrigger::CameraModeClass</definition>
+        <argsstring></argsstring>
+        <name>CameraModeClass</name>
+        <qualifiedname>AFlexiCameraModeTrigger::CameraModeClass</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/Miscellaneous/FlexiCameraModeTrigger.h" line="36" column="13" bodyfile="Source/FlexiCam/Public/Miscellaneous/FlexiCameraModeTrigger.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classAFlexiCameraModeTrigger_1a498d50bd32e4e046802a9ed702c1fe51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>AFlexiCameraModeTrigger::AFlexiCameraModeTrigger</definition>
+        <argsstring>()</argsstring>
+        <name>AFlexiCameraModeTrigger</name>
+        <qualifiedname>AFlexiCameraModeTrigger::AFlexiCameraModeTrigger</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/Miscellaneous/FlexiCameraModeTrigger.h" line="21" column="1" bodyfile="Source/FlexiCam/Private/Miscellaneous/FlexiCameraModeTrigger.cpp" bodystart="12" bodyend="39"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classAFlexiCameraModeTrigger_1a1329c7dbe2b5e481e79d66aa2a83645c" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AFlexiCameraModeTrigger::OnTriggerBeginOverlap</definition>
+        <argsstring>(class UPrimitiveComponent *OverlappedComp, class AActor *OtherActor, class UPrimitiveComponent *OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult &amp;SweepResult)</argsstring>
+        <name>OnTriggerBeginOverlap</name>
+        <qualifiedname>AFlexiCameraModeTrigger::OnTriggerBeginOverlap</qualifiedname>
+        <param>
+          <type>class UPrimitiveComponent *</type>
+          <declname>OverlappedComp</declname>
+        </param>
+        <param>
+          <type>class AActor *</type>
+          <declname>OtherActor</declname>
+        </param>
+        <param>
+          <type>class UPrimitiveComponent *</type>
+          <declname>OtherComp</declname>
+        </param>
+        <param>
+          <type>int32</type>
+          <declname>OtherBodyIndex</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bFromSweep</declname>
+        </param>
+        <param>
+          <type>const FHitResult &amp;</type>
+          <declname>SweepResult</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/Miscellaneous/FlexiCameraModeTrigger.h" line="25" column="6" bodyfile="Source/FlexiCam/Private/Miscellaneous/FlexiCameraModeTrigger.cpp" bodystart="41" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classAFlexiCameraModeTrigger_1ad2a2fd60c685066c292e09d28c74df73" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AFlexiCameraModeTrigger::OnTriggerEndOverlap</definition>
+        <argsstring>(class UPrimitiveComponent *OverlappedComp, class AActor *OtherActor, class UPrimitiveComponent *OtherComp, int32 OtherBodyIndex)</argsstring>
+        <name>OnTriggerEndOverlap</name>
+        <qualifiedname>AFlexiCameraModeTrigger::OnTriggerEndOverlap</qualifiedname>
+        <param>
+          <type>class UPrimitiveComponent *</type>
+          <declname>OverlappedComp</declname>
+        </param>
+        <param>
+          <type>class AActor *</type>
+          <declname>OtherActor</declname>
+        </param>
+        <param>
+          <type>class UPrimitiveComponent *</type>
+          <declname>OtherComp</declname>
+        </param>
+        <param>
+          <type>int32</type>
+          <declname>OtherBodyIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/Miscellaneous/FlexiCameraModeTrigger.h" line="28" column="6" bodyfile="Source/FlexiCam/Private/Miscellaneous/FlexiCameraModeTrigger.cpp" bodystart="49" bodyend="55"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classAFlexiCameraModeTrigger_1a995eaad4a13ae1a2d67844c358013fef" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>UFlexiCameraModeManagerComponent *</type>
+        <definition>UFlexiCameraModeManagerComponent * AFlexiCameraModeTrigger::GetCameraModeManagerComponent</definition>
+        <argsstring>(AActor *Actor) const</argsstring>
+        <name>GetCameraModeManagerComponent</name>
+        <qualifiedname>AFlexiCameraModeTrigger::GetCameraModeManagerComponent</qualifiedname>
+        <param>
+          <type>AActor *</type>
+          <declname>Actor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/Miscellaneous/FlexiCameraModeTrigger.h" line="40" column="34" bodyfile="Source/FlexiCam/Private/Miscellaneous/FlexiCameraModeTrigger.cpp" bodystart="57" bodyend="64"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AActor</label>
+      </node>
+      <node id="1">
+        <label>AFlexiCameraModeTrigger</label>
+        <link refid="classAFlexiCameraModeTrigger"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ATopDownCameraModeTrigger</label>
+        <link refid="classATopDownCameraModeTrigger"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AActor</label>
+      </node>
+      <node id="1">
+        <label>AFlexiCameraModeTrigger</label>
+        <link refid="classAFlexiCameraModeTrigger"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Source/FlexiCam/Public/Miscellaneous/FlexiCameraModeTrigger.h" line="15" column="1" bodyfile="Source/FlexiCam/Public/Miscellaneous/FlexiCameraModeTrigger.h" bodystart="16" bodyend="47"/>
+    <listofallmembers>
+      <member refid="classAFlexiCameraModeTrigger_1a498d50bd32e4e046802a9ed702c1fe51" prot="public" virt="non-virtual"><scope>AFlexiCameraModeTrigger</scope><name>AFlexiCameraModeTrigger</name></member>
+      <member refid="classAFlexiCameraModeTrigger_1a82765b11928613fae25fcb7d6f82e311" prot="protected" virt="non-virtual"><scope>AFlexiCameraModeTrigger</scope><name>CameraModeClass</name></member>
+      <member refid="classAFlexiCameraModeTrigger_1a995eaad4a13ae1a2d67844c358013fef" prot="private" virt="non-virtual"><scope>AFlexiCameraModeTrigger</scope><name>GetCameraModeManagerComponent</name></member>
+      <member refid="classAFlexiCameraModeTrigger_1a1329c7dbe2b5e481e79d66aa2a83645c" prot="protected" virt="non-virtual"><scope>AFlexiCameraModeTrigger</scope><name>OnTriggerBeginOverlap</name></member>
+      <member refid="classAFlexiCameraModeTrigger_1ad2a2fd60c685066c292e09d28c74df73" prot="protected" virt="non-virtual"><scope>AFlexiCameraModeTrigger</scope><name>OnTriggerEndOverlap</name></member>
+      <member refid="classAFlexiCameraModeTrigger_1a3736bb24fc2f53459841c31f53fafae2" prot="protected" virt="non-virtual"><scope>AFlexiCameraModeTrigger</scope><name>TriggerVolume</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

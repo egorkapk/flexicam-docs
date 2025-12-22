@@ -1,0 +1,237 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classUFightingCameraMode" kind="class" language="C++" prot="public">
+    <compoundname>UFightingCameraMode</compoundname>
+    <basecompoundref refid="classUFlexiCameraMode" prot="public" virt="non-virtual">UFlexiCameraMode</basecompoundref>
+    <includes refid="FightingCameraMode_8h" local="no">FightingCameraMode.h</includes>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classUFightingCameraMode_1a58d245e11fd6891ccb6c071105527f5c" prot="protected" static="no" mutable="no">
+        <type>FRotator</type>
+        <definition>FRotator UFightingCameraMode::DefaultPivotRotation</definition>
+        <argsstring></argsstring>
+        <name>DefaultPivotRotation</name>
+        <qualifiedname>UFightingCameraMode::DefaultPivotRotation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/Examples/FightingCameraMode.h" line="33" column="10" bodyfile="Source/FlexiCam/Public/Examples/FightingCameraMode.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUFightingCameraMode_1a11a7e4df4cdfec3088f0d85dbda26547" prot="protected" static="no" mutable="no">
+        <type>FRuntimeFloatCurve</type>
+        <definition>FRuntimeFloatCurve UFightingCameraMode::BoundsSizeToDistance</definition>
+        <argsstring></argsstring>
+        <name>BoundsSizeToDistance</name>
+        <qualifiedname>UFightingCameraMode::BoundsSizeToDistance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/Examples/FightingCameraMode.h" line="37" column="20" bodyfile="Source/FlexiCam/Public/Examples/FightingCameraMode.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUFightingCameraMode_1a641e63ce91557461cfbda6d157e00ab6" prot="protected" static="no" mutable="no">
+        <type>float</type>
+        <definition>float UFightingCameraMode::InterpolationSpeed</definition>
+        <argsstring></argsstring>
+        <name>InterpolationSpeed</name>
+        <qualifiedname>UFightingCameraMode::InterpolationSpeed</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/Examples/FightingCameraMode.h" line="41" column="7" bodyfile="Source/FlexiCam/Public/Examples/FightingCameraMode.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classUFightingCameraMode_1ab5d690d686309cd2b50eb1130f3d6474" prot="private" static="no" mutable="no">
+        <type>FVector</type>
+        <definition>FVector UFightingCameraMode::CurrentCameraLocation</definition>
+        <argsstring></argsstring>
+        <name>CurrentCameraLocation</name>
+        <qualifiedname>UFightingCameraMode::CurrentCameraLocation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/Examples/FightingCameraMode.h" line="44" column="9" bodyfile="Source/FlexiCam/Public/Examples/FightingCameraMode.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUFightingCameraMode_1a4270ffeff7001383ec9702da40b66dcf" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UFightingCameraMode::bIsFirstUpdate</definition>
+        <argsstring></argsstring>
+        <name>bIsFirstUpdate</name>
+        <qualifiedname>UFightingCameraMode::bIsFirstUpdate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/Examples/FightingCameraMode.h" line="45" column="6" bodyfile="Source/FlexiCam/Public/Examples/FightingCameraMode.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classUFightingCameraMode_1a5aa46cc8a6a4163d1b5e68cc35b9a2ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>UFightingCameraMode::UFightingCameraMode</definition>
+        <argsstring>()</argsstring>
+        <name>UFightingCameraMode</name>
+        <qualifiedname>UFightingCameraMode::UFightingCameraMode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/Examples/FightingCameraMode.h" line="21" column="1" bodyfile="Source/FlexiCam/Private/Examples/FightingCameraMode.cpp" bodystart="10" bodyend="16"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classUFightingCameraMode_1a649bd9482c3d5284ec58f55a5d292d2b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void UFightingCameraMode::UpdateView_Implementation</definition>
+        <argsstring>(float DeltaTime) override</argsstring>
+        <name>UpdateView_Implementation</name>
+        <qualifiedname>UFightingCameraMode::UpdateView_Implementation</qualifiedname>
+        <reimplements refid="classUFlexiCameraMode_1a8484a1ac604a7a4fefca2b9ac21e0d72">UpdateView_Implementation</reimplements>
+        <param>
+          <type>float</type>
+          <declname>DeltaTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/Examples/FightingCameraMode.h" line="24" column="14" bodyfile="Source/FlexiCam/Private/Examples/FightingCameraMode.cpp" bodystart="18" bodyend="36"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classUFightingCameraMode_1a469ebf6615a8227a558cbea4c9b777cc" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>FVector</type>
+        <definition>FVector UFightingCameraMode::GetMidPoint</definition>
+        <argsstring>() const</argsstring>
+        <name>GetMidPoint</name>
+        <qualifiedname>UFightingCameraMode::GetMidPoint</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/Examples/FightingCameraMode.h" line="27" column="9" bodyfile="Source/FlexiCam/Private/Examples/FightingCameraMode.cpp" bodystart="38" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classUFightingCameraMode_1ad0cd4d93acc36154675653a364abaf4d" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const float</type>
+        <definition>const float UFightingCameraMode::GetFightersMaxDistance</definition>
+        <argsstring>() const</argsstring>
+        <name>GetFightersMaxDistance</name>
+        <qualifiedname>UFightingCameraMode::GetFightersMaxDistance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/Examples/FightingCameraMode.h" line="28" column="13" bodyfile="Source/FlexiCam/Private/Examples/FightingCameraMode.cpp" bodystart="64" bodyend="92"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Camera mode example for a fighting game style camera. This mode tries to keep all fighters in view by positioning the camera </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>UFightingCameraMode</label>
+        <link refid="classUFightingCameraMode"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>UFlexiCameraMode</label>
+        <link refid="classUFlexiCameraMode"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>UObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>FFlexiCameraModeView</label>
+        <link refid="structFFlexiCameraModeView"/>
+      </node>
+      <node id="1">
+        <label>UFightingCameraMode</label>
+        <link refid="classUFightingCameraMode"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>UFlexiCameraMode</label>
+        <link refid="classUFlexiCameraMode"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>ModeView</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>UObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="Source/FlexiCam/Public/Examples/FightingCameraMode.h" line="16" column="1" bodyfile="Source/FlexiCam/Public/Examples/FightingCameraMode.h" bodystart="17" bodyend="46"/>
+    <listofallmembers>
+      <member refid="classUFightingCameraMode_1a4270ffeff7001383ec9702da40b66dcf" prot="private" virt="non-virtual"><scope>UFightingCameraMode</scope><name>bIsFirstUpdate</name></member>
+      <member refid="classUFlexiCameraMode_1a4ea5fcd80ac165319c3b0f4b0bbe0b5a" prot="protected" virt="non-virtual"><scope>UFightingCameraMode</scope><name>BlendAlpha</name></member>
+      <member refid="classUFlexiCameraMode_1a8f53b7efe98d7f64985ccc634e7081ec" prot="protected" virt="non-virtual"><scope>UFightingCameraMode</scope><name>BlendExponent</name></member>
+      <member refid="classUFlexiCameraMode_1ad8286d92bcdd029a50eeceb7c2db9979" prot="protected" virt="non-virtual"><scope>UFightingCameraMode</scope><name>BlendFunction</name></member>
+      <member refid="classUFlexiCameraMode_1a3e1397704cf212736a1ff74bec4485c2" prot="protected" virt="non-virtual"><scope>UFightingCameraMode</scope><name>BlendTime</name></member>
+      <member refid="classUFlexiCameraMode_1a8388d7138c6f2f1f0f426ba9a56ae7a1" prot="protected" virt="non-virtual"><scope>UFightingCameraMode</scope><name>BlendWeight</name></member>
+      <member refid="classUFightingCameraMode_1a11a7e4df4cdfec3088f0d85dbda26547" prot="protected" virt="non-virtual"><scope>UFightingCameraMode</scope><name>BoundsSizeToDistance</name></member>
+      <member refid="classUFlexiCameraMode_1a137102e1dcf4f9e0ffbb064f2b46f865" prot="protected" virt="non-virtual"><scope>UFightingCameraMode</scope><name>bResetInterpolation</name></member>
+      <member refid="classUFlexiCameraMode_1ad3497c417eaa2c9612a5ba9341c0679d" prot="protected" virt="non-virtual"><scope>UFightingCameraMode</scope><name>CameraTypeTags</name></member>
+      <member refid="classUFightingCameraMode_1ab5d690d686309cd2b50eb1130f3d6474" prot="private" virt="non-virtual"><scope>UFightingCameraMode</scope><name>CurrentCameraLocation</name></member>
+      <member refid="classUFightingCameraMode_1a58d245e11fd6891ccb6c071105527f5c" prot="protected" virt="non-virtual"><scope>UFightingCameraMode</scope><name>DefaultPivotRotation</name></member>
+      <member refid="classUFlexiCameraMode_1a950184dd09e227680d7a019b3bc6532d" prot="protected" virt="non-virtual"><scope>UFightingCameraMode</scope><name>FieldOfView</name></member>
+      <member refid="classUFlexiCameraMode_1a1da5974facea9b9eb7aab0dcb84a936b" prot="public" virt="non-virtual"><scope>UFightingCameraMode</scope><name>GetBlendTime</name></member>
+      <member refid="classUFlexiCameraMode_1a106306701bdccb5d263b89595d807b2d" prot="public" virt="non-virtual"><scope>UFightingCameraMode</scope><name>GetBlendWeight</name></member>
+      <member refid="classUFlexiCameraMode_1a605936d6ede886252c551f22d28f3842" prot="public" virt="non-virtual"><scope>UFightingCameraMode</scope><name>GetCameraModeView</name></member>
+      <member refid="classUFlexiCameraMode_1abe897e59fbfa437b618905be1bbc7e3a" prot="public" virt="non-virtual"><scope>UFightingCameraMode</scope><name>GetCameraTypeTag</name></member>
+      <member refid="classUFightingCameraMode_1ad0cd4d93acc36154675653a364abaf4d" prot="private" virt="non-virtual"><scope>UFightingCameraMode</scope><name>GetFightersMaxDistance</name></member>
+      <member refid="classUFlexiCameraMode_1afa231af0bee579090ed8e0fdde1f0923" prot="public" virt="non-virtual"><scope>UFightingCameraMode</scope><name>GetFlexiCameraComponent</name></member>
+      <member refid="classUFightingCameraMode_1a469ebf6615a8227a558cbea4c9b777cc" prot="private" virt="non-virtual"><scope>UFightingCameraMode</scope><name>GetMidPoint</name></member>
+      <member refid="classUFlexiCameraMode_1aad4c32d8226e36c5e796e9ee51d150c8" prot="protected" virt="virtual"><scope>UFightingCameraMode</scope><name>GetPivotLocation</name></member>
+      <member refid="classUFlexiCameraMode_1a68aa0371fe2d82f6f9a3f105cb85bd31" prot="protected" virt="virtual"><scope>UFightingCameraMode</scope><name>GetPivotRotation</name></member>
+      <member refid="classUFlexiCameraMode_1a6c68233eec86392946fdda5c24ea917e" prot="public" virt="non-virtual"><scope>UFightingCameraMode</scope><name>GetTagContainer</name></member>
+      <member refid="classUFlexiCameraMode_1a44a00ebb9f048ba69637bfa6e00bb174" prot="public" virt="non-virtual"><scope>UFightingCameraMode</scope><name>GetTargetActor</name></member>
+      <member refid="classUFlexiCameraMode_1a807639825027954d9525da0ff9f09a30" prot="public" virt="virtual"><scope>UFightingCameraMode</scope><name>GetWorld</name></member>
+      <member refid="classUFightingCameraMode_1a641e63ce91557461cfbda6d157e00ab6" prot="protected" virt="non-virtual"><scope>UFightingCameraMode</scope><name>InterpolationSpeed</name></member>
+      <member refid="classUFlexiCameraMode_1af5930e99d051c0438e8a1e61786bbed8" prot="protected" virt="non-virtual"><scope>UFightingCameraMode</scope><name>ModeView</name></member>
+      <member refid="classUFlexiCameraMode_1a4bde481bbfa9034c911214e1eb8b2f10" prot="public" virt="virtual"><scope>UFightingCameraMode</scope><name>OnActivation</name></member>
+      <member refid="classUFlexiCameraMode_1a103c68934be1a01c77c5ce20999cb03d" prot="public" virt="non-virtual"><scope>UFightingCameraMode</scope><name>OnActivation_Event</name></member>
+      <member refid="classUFlexiCameraMode_1af9d098072870d25e281472af27805ad3" prot="public" virt="virtual"><scope>UFightingCameraMode</scope><name>OnDeactivation</name></member>
+      <member refid="classUFlexiCameraMode_1ac71ae44800f4c37ad91acc4ecc36f05f" prot="public" virt="non-virtual"><scope>UFightingCameraMode</scope><name>OnDeactivation_Event</name></member>
+      <member refid="classUFlexiCameraMode_1a87ab10f204922941bb5a6f2d91ca90c7" prot="public" virt="non-virtual"><scope>UFightingCameraMode</scope><name>SetBlendWeight</name></member>
+      <member refid="classUFightingCameraMode_1a5aa46cc8a6a4163d1b5e68cc35b9a2ca" prot="public" virt="non-virtual"><scope>UFightingCameraMode</scope><name>UFightingCameraMode</name></member>
+      <member refid="classUFlexiCameraMode_1ada8295535cf7dee078e3477d383bc21c" prot="public" virt="non-virtual"><scope>UFightingCameraMode</scope><name>UFlexiCameraMode</name></member>
+      <member refid="classUFlexiCameraMode_1a621d1563a16194fb5f7d55a1e6d3e6ac" prot="protected" virt="virtual"><scope>UFightingCameraMode</scope><name>UpdateBlending</name></member>
+      <member refid="classUFlexiCameraMode_1ac1439d46653a7a18a3be516ef7bceac9" prot="public" virt="non-virtual"><scope>UFightingCameraMode</scope><name>UpdateCameraMode</name></member>
+      <member refid="classUFlexiCameraMode_1a4257b0fb8f8e890b5e74ad32e767982c" prot="protected" virt="non-virtual"><scope>UFightingCameraMode</scope><name>UpdateView</name></member>
+      <member refid="classUFightingCameraMode_1a649bd9482c3d5284ec58f55a5d292d2b" prot="protected" virt="virtual"><scope>UFightingCameraMode</scope><name>UpdateView_Implementation</name></member>
+      <member refid="classUFlexiCameraMode_1a03a610799b2d5235ba4af0e18490097c" prot="protected" virt="non-virtual"><scope>UFightingCameraMode</scope><name>ViewPitchMax</name></member>
+      <member refid="classUFlexiCameraMode_1a49b61190403638ba28b29878c3527b54" prot="protected" virt="non-virtual"><scope>UFightingCameraMode</scope><name>ViewPitchMin</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="FlexiCamPlayerController_8h" kind="file" language="C++">
+    <compoundname>FlexiCamPlayerController.h</compoundname>
+    <includes local="yes">CoreMinimal.h</includes>
+    <includes local="yes">GameFramework/PlayerController.h</includes>
+    <includes local="yes">FlexiCamPlayerController.generated.h</includes>
+    <includedby refid="FlexiCamPlayerController_8cpp" local="yes">Source/FlexiCam/Private/Examples/FlexiCamPlayerController.cpp</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>Source/FlexiCam/Public/Examples/FlexiCamPlayerController.h</label>
+        <link refid="FlexiCamPlayerController_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>CoreMinimal.h</label>
+      </node>
+      <node id="4">
+        <label>FlexiCamPlayerController.generated.h</label>
+      </node>
+      <node id="3">
+        <label>GameFramework/PlayerController.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classAFlexiCamPlayerController" prot="public">AFlexiCamPlayerController</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Copyright<sp/>(c)<sp/>2025<sp/>Egor<sp/>Ermakov.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;CoreMinimal.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;GameFramework/PlayerController.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;FlexiCamPlayerController.generated.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">UInputMappingContext;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">UCLASS(Abstract)</highlight></codeline>
+<codeline lineno="16" refid="classAFlexiCamPlayerController" refkind="compound"><highlight class="normal">class<sp/>FLEXICAM_API<sp/><ref refid="classAFlexiCamPlayerController" kindref="compound">AFlexiCamPlayerController</ref><sp/>:<sp/>public<sp/>APlayerController</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SetupInputComponent()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditAnywhere,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Input|Input<sp/>Mappings&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="27" refid="classAFlexiCamPlayerController_1af60372738d1e5b62603a552f3f27b953" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>TArray&lt;UInputMappingContext*&gt;<sp/>DefaultMappingContexts;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="Source/FlexiCam/Public/Examples/FlexiCamPlayerController.h"/>
+  </compounddef>
+</doxygen>

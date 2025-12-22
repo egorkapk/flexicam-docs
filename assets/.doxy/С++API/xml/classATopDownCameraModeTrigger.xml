@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classATopDownCameraModeTrigger" kind="class" language="C++" prot="public">
+    <compoundname>ATopDownCameraModeTrigger</compoundname>
+    <basecompoundref refid="classAFlexiCameraModeTrigger" prot="public" virt="non-virtual">AFlexiCameraModeTrigger</basecompoundref>
+    <includes refid="TopDownCameraModeTrigger_8h" local="no">TopDownCameraModeTrigger.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classATopDownCameraModeTrigger_1a7deb5d100f0906aef6c216c32a890842" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ATopDownCameraModeTrigger::ATopDownCameraModeTrigger</definition>
+        <argsstring>()</argsstring>
+        <name>ATopDownCameraModeTrigger</name>
+        <qualifiedname>ATopDownCameraModeTrigger::ATopDownCameraModeTrigger</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/Examples/TopDownCameraModeTrigger.h" line="20" column="1" bodyfile="Source/FlexiCam/Private/Examples/TopDownCameraModeTrigger.cpp" bodystart="8" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classATopDownCameraModeTrigger_1a618f5ecbfb1cbde5bd93c827ad8f5cb5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>UBoxComponent *</type>
+        <definition>UBoxComponent * ATopDownCameraModeTrigger::GetTriggerVolume</definition>
+        <argsstring>() const</argsstring>
+        <name>GetTriggerVolume</name>
+        <qualifiedname>ATopDownCameraModeTrigger::GetTriggerVolume</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/Examples/TopDownCameraModeTrigger.h" line="25" column="15" bodyfile="Source/FlexiCam/Private/Examples/TopDownCameraModeTrigger.cpp" bodystart="13" bodyend="20"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Example camera mode trigger for a top-down camera mode. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>AActor</label>
+      </node>
+      <node id="2">
+        <label>AFlexiCameraModeTrigger</label>
+        <link refid="classAFlexiCameraModeTrigger"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>ATopDownCameraModeTrigger</label>
+        <link refid="classATopDownCameraModeTrigger"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>AActor</label>
+      </node>
+      <node id="2">
+        <label>AFlexiCameraModeTrigger</label>
+        <link refid="classAFlexiCameraModeTrigger"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>ATopDownCameraModeTrigger</label>
+        <link refid="classATopDownCameraModeTrigger"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Source/FlexiCam/Public/Examples/TopDownCameraModeTrigger.h" line="15" column="1" bodyfile="Source/FlexiCam/Public/Examples/TopDownCameraModeTrigger.h" bodystart="16" bodyend="26"/>
+    <listofallmembers>
+      <member refid="classAFlexiCameraModeTrigger_1a498d50bd32e4e046802a9ed702c1fe51" prot="public" virt="non-virtual"><scope>ATopDownCameraModeTrigger</scope><name>AFlexiCameraModeTrigger</name></member>
+      <member refid="classATopDownCameraModeTrigger_1a7deb5d100f0906aef6c216c32a890842" prot="public" virt="non-virtual"><scope>ATopDownCameraModeTrigger</scope><name>ATopDownCameraModeTrigger</name></member>
+      <member refid="classAFlexiCameraModeTrigger_1a82765b11928613fae25fcb7d6f82e311" prot="protected" virt="non-virtual"><scope>ATopDownCameraModeTrigger</scope><name>CameraModeClass</name></member>
+      <member refid="classATopDownCameraModeTrigger_1a618f5ecbfb1cbde5bd93c827ad8f5cb5" prot="public" virt="non-virtual"><scope>ATopDownCameraModeTrigger</scope><name>GetTriggerVolume</name></member>
+      <member refid="classAFlexiCameraModeTrigger_1a1329c7dbe2b5e481e79d66aa2a83645c" prot="protected" virt="non-virtual"><scope>ATopDownCameraModeTrigger</scope><name>OnTriggerBeginOverlap</name></member>
+      <member refid="classAFlexiCameraModeTrigger_1ad2a2fd60c685066c292e09d28c74df73" prot="protected" virt="non-virtual"><scope>ATopDownCameraModeTrigger</scope><name>OnTriggerEndOverlap</name></member>
+      <member refid="classAFlexiCameraModeTrigger_1a3736bb24fc2f53459841c31f53fafae2" prot="protected" virt="non-virtual"><scope>ATopDownCameraModeTrigger</scope><name>TriggerVolume</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

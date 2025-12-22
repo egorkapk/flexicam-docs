@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_b057122e45aa8bd45ab36524bc638649" kind="dir">
+    <compoundname>Source/FlexiCam/Public/Miscellaneous</compoundname>
+    <innerfile refid="FlexiCameraModeTrigger_8h">FlexiCameraModeTrigger.h</innerfile>
+    <innerfile refid="FlexiCamTags_8h">FlexiCamTags.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Source/FlexiCam/Public/Miscellaneous/"/>
+  </compounddef>
+</doxygen>
