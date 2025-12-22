@@ -29,6 +29,14 @@ markdown_extensions:
 
 plugins:
    - glightbox
+   - mkdoxy:
+      projects:
+        С++API: # name of project must be alphanumeric + numbers (without spaces)
+          src-dirs: Source # path to source code (support multiple paths separated by space) => INPUT
+          full-doc: True # if you want to generate full documentation
+          doxy-cfg: # standard doxygen configuration (key: value)
+            FILE_PATTERNS: "*.cpp *.h*" # specify file patterns to filter out
+            RECURSIVE: True # recursive search in source directories
 
 nav:
   - Home: index.md
@@ -36,3 +44,4 @@ nav:
   - Installation: installation.md
   - Tutorial: tutorial.md
   - Examples: examples/overview.md
+  - C++ API Reference: С++API/annotated.md
