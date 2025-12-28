@@ -1,0 +1,371 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classAFlexiCamCharacter" kind="class" language="C++" prot="public">
+    <compoundname>AFlexiCamCharacter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ACharacter</basecompoundref>
+    <basecompoundref refid="classIFlexiCamInterface" prot="public" virt="non-virtual">IFlexiCamInterface</basecompoundref>
+    <includes refid="FlexiCamCharacter_8h" local="no">FlexiCamCharacter.h</includes>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classAFlexiCamCharacter_1a1cf734d2bc5c34ad1ca7f393c3603dd3" prot="protected" static="no" mutable="no">
+        <type>USpringArmComponent *</type>
+        <definition>USpringArmComponent* AFlexiCamCharacter::CameraBoom</definition>
+        <argsstring></argsstring>
+        <name>CameraBoom</name>
+        <qualifiedname>AFlexiCamCharacter::CameraBoom</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Camera boom positioning the camera behind the character </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/Examples/FlexiCamCharacter.h" line="79" column="21" bodyfile="Source/FlexiCam/Public/Examples/FlexiCamCharacter.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAFlexiCamCharacter_1a88bcba3bf83614cfb9dffe4bb8e4c78b" prot="protected" static="no" mutable="no">
+        <type>TObjectPtr&lt; UFlexiCameraComponent &gt;</type>
+        <definition>TObjectPtr&lt;UFlexiCameraComponent&gt; AFlexiCamCharacter::FollowCamera</definition>
+        <argsstring></argsstring>
+        <name>FollowCamera</name>
+        <qualifiedname>AFlexiCamCharacter::FollowCamera</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Follow camera </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/Examples/FlexiCamCharacter.h" line="83" column="12" bodyfile="Source/FlexiCam/Public/Examples/FlexiCamCharacter.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAFlexiCamCharacter_1af213f9ba9b87464ca12cf582d9ce3fba" prot="protected" static="no" mutable="no">
+        <type>TObjectPtr&lt; UFlexiCameraModeManagerComponent &gt;</type>
+        <definition>TObjectPtr&lt;UFlexiCameraModeManagerComponent&gt; AFlexiCamCharacter::FlexiCameraModeManagerComponent</definition>
+        <argsstring></argsstring>
+        <name>FlexiCameraModeManagerComponent</name>
+        <qualifiedname>AFlexiCamCharacter::FlexiCameraModeManagerComponent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/Examples/FlexiCamCharacter.h" line="86" column="12" bodyfile="Source/FlexiCam/Public/Examples/FlexiCamCharacter.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAFlexiCamCharacter_1ac9de726dd232393f3dd6fbd5faee948c" prot="protected" static="no" mutable="no">
+        <type>UInputAction *</type>
+        <definition>UInputAction* AFlexiCamCharacter::JumpAction</definition>
+        <argsstring></argsstring>
+        <name>JumpAction</name>
+        <qualifiedname>AFlexiCamCharacter::JumpAction</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Jump Input Action </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/Examples/FlexiCamCharacter.h" line="93" column="14" bodyfile="Source/FlexiCam/Public/Examples/FlexiCamCharacter.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAFlexiCamCharacter_1a27c4683dc6b20e6363183a0108fda8c3" prot="protected" static="no" mutable="no">
+        <type>UInputAction *</type>
+        <definition>UInputAction* AFlexiCamCharacter::MoveAction</definition>
+        <argsstring></argsstring>
+        <name>MoveAction</name>
+        <qualifiedname>AFlexiCamCharacter::MoveAction</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Move Input Action </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/Examples/FlexiCamCharacter.h" line="97" column="14" bodyfile="Source/FlexiCam/Public/Examples/FlexiCamCharacter.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAFlexiCamCharacter_1abf5816627b4ef4dee9278d3c0a16aaa1" prot="protected" static="no" mutable="no">
+        <type>UInputAction *</type>
+        <definition>UInputAction* AFlexiCamCharacter::LookAction</definition>
+        <argsstring></argsstring>
+        <name>LookAction</name>
+        <qualifiedname>AFlexiCamCharacter::LookAction</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Look Input Action </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/Examples/FlexiCamCharacter.h" line="101" column="14" bodyfile="Source/FlexiCam/Public/Examples/FlexiCamCharacter.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAFlexiCamCharacter_1a63b13735a6d0f5c187d1ef7c91acf34c" prot="protected" static="no" mutable="no">
+        <type>UInputAction *</type>
+        <definition>UInputAction* AFlexiCamCharacter::MouseLookAction</definition>
+        <argsstring></argsstring>
+        <name>MouseLookAction</name>
+        <qualifiedname>AFlexiCamCharacter::MouseLookAction</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Mouse Look Input Action </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/Examples/FlexiCamCharacter.h" line="105" column="14" bodyfile="Source/FlexiCam/Public/Examples/FlexiCamCharacter.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classAFlexiCamCharacter_1ac15434b84250146456c6d495414fb42b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>AFlexiCamCharacter::AFlexiCamCharacter</definition>
+        <argsstring>()</argsstring>
+        <name>AFlexiCamCharacter</name>
+        <qualifiedname>AFlexiCamCharacter::AFlexiCamCharacter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/Examples/FlexiCamCharacter.h" line="30" column="1" bodyfile="Source/FlexiCam/Private/Examples/FlexiCamCharacter.cpp" bodystart="20" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classAFlexiCamCharacter_1af2987eac45800fcd0e66138d6b48f64a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>UFlexiCameraModeManagerComponent *</type>
+        <definition>UFlexiCameraModeManagerComponent * AFlexiCamCharacter::GetFlexiCameraModeManagerComponent_Implementation</definition>
+        <argsstring>() const override</argsstring>
+        <name>GetFlexiCameraModeManagerComponent_Implementation</name>
+        <qualifiedname>AFlexiCamCharacter::GetFlexiCameraModeManagerComponent_Implementation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/Examples/FlexiCamCharacter.h" line="34" column="42" bodyfile="Source/FlexiCam/Private/Examples/FlexiCamCharacter.cpp" bodystart="62" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classAFlexiCamCharacter_1a2e9aadb90656008aa09105551ff4a0b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void AFlexiCamCharacter::DoMove</definition>
+        <argsstring>(float Right, float Forward)</argsstring>
+        <name>DoMove</name>
+        <qualifiedname>AFlexiCamCharacter::DoMove</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>Right</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Forward</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Handles move inputs from either controls or UI interfaces </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/Examples/FlexiCamCharacter.h" line="41" column="14" bodyfile="Source/FlexiCam/Private/Examples/FlexiCamCharacter.cpp" bodystart="109" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="classAFlexiCamCharacter_1ad87c328c7082be2bfbd8c87cf5c47577" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void AFlexiCamCharacter::DoLook</definition>
+        <argsstring>(float Yaw, float Pitch)</argsstring>
+        <name>DoLook</name>
+        <qualifiedname>AFlexiCamCharacter::DoLook</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>Yaw</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Pitch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Handles look inputs from either controls or UI interfaces </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/Examples/FlexiCamCharacter.h" line="45" column="14" bodyfile="Source/FlexiCam/Private/Examples/FlexiCamCharacter.cpp" bodystart="151" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="classAFlexiCamCharacter_1aedddde8888bbc3642251f4b2fa31212c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void AFlexiCamCharacter::DoJumpStart</definition>
+        <argsstring>()</argsstring>
+        <name>DoJumpStart</name>
+        <qualifiedname>AFlexiCamCharacter::DoJumpStart</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Handles jump pressed inputs from either controls or UI interfaces </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/Examples/FlexiCamCharacter.h" line="49" column="14" bodyfile="Source/FlexiCam/Private/Examples/FlexiCamCharacter.cpp" bodystart="161" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="classAFlexiCamCharacter_1afcd5408fbf8ee1a9664cced427a5016e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void AFlexiCamCharacter::DoJumpEnd</definition>
+        <argsstring>()</argsstring>
+        <name>DoJumpEnd</name>
+        <qualifiedname>AFlexiCamCharacter::DoJumpEnd</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Handles jump pressed inputs from either controls or UI interfaces </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/Examples/FlexiCamCharacter.h" line="53" column="14" bodyfile="Source/FlexiCam/Private/Examples/FlexiCamCharacter.cpp" bodystart="167" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="classAFlexiCamCharacter_1a48e169ad04462c518201f2fb6a005b51" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>FORCEINLINE class USpringArmComponent *</type>
+        <definition>USpringArmComponent * AFlexiCamCharacter::GetCameraBoom</definition>
+        <argsstring>() const</argsstring>
+        <name>GetCameraBoom</name>
+        <qualifiedname>AFlexiCamCharacter::GetCameraBoom</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns CameraBoom subobject </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/Examples/FlexiCamCharacter.h" line="58" column="39" bodyfile="Source/FlexiCam/Private/Examples/FlexiCamCharacter.cpp" bodystart="173" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="classAFlexiCamCharacter_1a7e19f09d84ed4ded1ac6d4b3ec01ecf0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>FORCEINLINE class UCameraComponent *</type>
+        <definition>UCameraComponent * AFlexiCamCharacter::GetFollowCamera</definition>
+        <argsstring>() const</argsstring>
+        <name>GetFollowCamera</name>
+        <qualifiedname>AFlexiCamCharacter::GetFollowCamera</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns FollowCamera subobject </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/Examples/FlexiCamCharacter.h" line="61" column="36" bodyfile="Source/FlexiCam/Private/Examples/FlexiCamCharacter.cpp" bodystart="178" bodyend="181"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classAFlexiCamCharacter_1a3c5b3e8462151ac5537cf34ff910a75d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void AFlexiCamCharacter::SetupPlayerInputComponent</definition>
+        <argsstring>(class UInputComponent *PlayerInputComponent) override</argsstring>
+        <name>SetupPlayerInputComponent</name>
+        <qualifiedname>AFlexiCamCharacter::SetupPlayerInputComponent</qualifiedname>
+        <param>
+          <type>class UInputComponent *</type>
+          <declname>PlayerInputComponent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Initialize input action bindings </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/Examples/FlexiCamCharacter.h" line="66" column="14" bodyfile="Source/FlexiCam/Private/Examples/FlexiCamCharacter.cpp" bodystart="72" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="classAFlexiCamCharacter_1a6bc71e8b578c326e5be76ac315f89b40" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AFlexiCamCharacter::Move</definition>
+        <argsstring>(const FInputActionValue &amp;Value)</argsstring>
+        <name>Move</name>
+        <qualifiedname>AFlexiCamCharacter::Move</qualifiedname>
+        <param>
+          <type>const FInputActionValue &amp;</type>
+          <declname>Value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Called for movement input </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/Examples/FlexiCamCharacter.h" line="71" column="6" bodyfile="Source/FlexiCam/Private/Examples/FlexiCamCharacter.cpp" bodystart="91" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classAFlexiCamCharacter_1a43b002f4c039e46863eb410cf5aa1d8a" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AFlexiCamCharacter::Look</definition>
+        <argsstring>(const FInputActionValue &amp;Value)</argsstring>
+        <name>Look</name>
+        <qualifiedname>AFlexiCamCharacter::Look</qualifiedname>
+        <param>
+          <type>const FInputActionValue &amp;</type>
+          <declname>Value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Called for looking input </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/Examples/FlexiCamCharacter.h" line="74" column="6" bodyfile="Source/FlexiCam/Private/Examples/FlexiCamCharacter.cpp" bodystart="100" bodyend="107"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A simple player-controllable third person character Implements a controllable orbiting camera </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ACharacter</label>
+      </node>
+      <node id="1">
+        <label>AFlexiCamCharacter</label>
+        <link refid="classAFlexiCamCharacter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>IFlexiCamInterface</label>
+        <link refid="classIFlexiCamInterface"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ACharacter</label>
+      </node>
+      <node id="1">
+        <label>AFlexiCamCharacter</label>
+        <link refid="classAFlexiCamCharacter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>IFlexiCamInterface</label>
+        <link refid="classIFlexiCamInterface"/>
+      </node>
+    </collaborationgraph>
+    <location file="Source/FlexiCam/Public/Examples/FlexiCamCharacter.h" line="24" column="1" bodyfile="Source/FlexiCam/Public/Examples/FlexiCamCharacter.h" bodystart="25" bodyend="106"/>
+    <listofallmembers>
+      <member refid="classAFlexiCamCharacter_1ac15434b84250146456c6d495414fb42b" prot="public" virt="non-virtual"><scope>AFlexiCamCharacter</scope><name>AFlexiCamCharacter</name></member>
+      <member refid="classAFlexiCamCharacter_1a1cf734d2bc5c34ad1ca7f393c3603dd3" prot="protected" virt="non-virtual"><scope>AFlexiCamCharacter</scope><name>CameraBoom</name></member>
+      <member refid="classAFlexiCamCharacter_1afcd5408fbf8ee1a9664cced427a5016e" prot="public" virt="virtual"><scope>AFlexiCamCharacter</scope><name>DoJumpEnd</name></member>
+      <member refid="classAFlexiCamCharacter_1aedddde8888bbc3642251f4b2fa31212c" prot="public" virt="virtual"><scope>AFlexiCamCharacter</scope><name>DoJumpStart</name></member>
+      <member refid="classAFlexiCamCharacter_1ad87c328c7082be2bfbd8c87cf5c47577" prot="public" virt="virtual"><scope>AFlexiCamCharacter</scope><name>DoLook</name></member>
+      <member refid="classAFlexiCamCharacter_1a2e9aadb90656008aa09105551ff4a0b4" prot="public" virt="virtual"><scope>AFlexiCamCharacter</scope><name>DoMove</name></member>
+      <member refid="classAFlexiCamCharacter_1af213f9ba9b87464ca12cf582d9ce3fba" prot="protected" virt="non-virtual"><scope>AFlexiCamCharacter</scope><name>FlexiCameraModeManagerComponent</name></member>
+      <member refid="classAFlexiCamCharacter_1a88bcba3bf83614cfb9dffe4bb8e4c78b" prot="protected" virt="non-virtual"><scope>AFlexiCamCharacter</scope><name>FollowCamera</name></member>
+      <member refid="classAFlexiCamCharacter_1a48e169ad04462c518201f2fb6a005b51" prot="public" virt="non-virtual"><scope>AFlexiCamCharacter</scope><name>GetCameraBoom</name></member>
+      <member refid="classIFlexiCamInterface_1a87fd41388fe927b98997d4ee0e1cf98d" prot="public" virt="non-virtual"><scope>AFlexiCamCharacter</scope><name>GetFlexiCameraModeManagerComponent</name></member>
+      <member refid="classAFlexiCamCharacter_1af2987eac45800fcd0e66138d6b48f64a" prot="public" virt="virtual"><scope>AFlexiCamCharacter</scope><name>GetFlexiCameraModeManagerComponent_Implementation</name></member>
+      <member refid="classAFlexiCamCharacter_1a7e19f09d84ed4ded1ac6d4b3ec01ecf0" prot="public" virt="non-virtual"><scope>AFlexiCamCharacter</scope><name>GetFollowCamera</name></member>
+      <member refid="classAFlexiCamCharacter_1ac9de726dd232393f3dd6fbd5faee948c" prot="protected" virt="non-virtual"><scope>AFlexiCamCharacter</scope><name>JumpAction</name></member>
+      <member refid="classAFlexiCamCharacter_1a43b002f4c039e46863eb410cf5aa1d8a" prot="protected" virt="non-virtual"><scope>AFlexiCamCharacter</scope><name>Look</name></member>
+      <member refid="classAFlexiCamCharacter_1abf5816627b4ef4dee9278d3c0a16aaa1" prot="protected" virt="non-virtual"><scope>AFlexiCamCharacter</scope><name>LookAction</name></member>
+      <member refid="classAFlexiCamCharacter_1a63b13735a6d0f5c187d1ef7c91acf34c" prot="protected" virt="non-virtual"><scope>AFlexiCamCharacter</scope><name>MouseLookAction</name></member>
+      <member refid="classAFlexiCamCharacter_1a6bc71e8b578c326e5be76ac315f89b40" prot="protected" virt="non-virtual"><scope>AFlexiCamCharacter</scope><name>Move</name></member>
+      <member refid="classAFlexiCamCharacter_1a27c4683dc6b20e6363183a0108fda8c3" prot="protected" virt="non-virtual"><scope>AFlexiCamCharacter</scope><name>MoveAction</name></member>
+      <member refid="classAFlexiCamCharacter_1a3c5b3e8462151ac5537cf34ff910a75d" prot="protected" virt="virtual"><scope>AFlexiCamCharacter</scope><name>SetupPlayerInputComponent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

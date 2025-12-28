@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="FlexiCamTags_8cpp" kind="file" language="C++">
+    <compoundname>FlexiCamTags.cpp</compoundname>
+    <includes refid="FlexiCamTags_8h" local="yes">Miscellaneous/FlexiCamTags.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>Source/FlexiCam/Private/Miscellaneous/FlexiCamTags.cpp</label>
+        <link refid="FlexiCamTags_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Miscellaneous/FlexiCamTags.h</label>
+        <link refid="FlexiCamTags_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>GameplayTagContainer.h</label>
+      </node>
+      <node id="4">
+        <label>NativeGameplayTags.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="FlexiCamTags_8cpp_1a78956d502acc0fb736e4501325f31b53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>UE_DEFINE_GAMEPLAY_TAG</definition>
+        <argsstring>(TAG_SideScrollingMovement, &quot;Flexi.Movement.SideScroller&quot;)</argsstring>
+        <name>UE_DEFINE_GAMEPLAY_TAG</name>
+        <param>
+          <type>TAG_SideScrollingMovement</type>
+        </param>
+        <param>
+          <type>&quot;Flexi.Movement.SideScroller&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Private/Miscellaneous/FlexiCamTags.cpp" line="5" column="1" declfile="Source/FlexiCam/Private/Miscellaneous/FlexiCamTags.cpp" declline="5" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="FlexiCamTags_8cpp_1a02519079a11707eb62e0e30000b4bc3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>UE_DEFINE_GAMEPLAY_TAG</definition>
+        <argsstring>(TAG_DisableChangeThroughInput, &quot;Flexi.Modes.Block.ChangeThroughInput&quot;)</argsstring>
+        <name>UE_DEFINE_GAMEPLAY_TAG</name>
+        <param>
+          <type>TAG_DisableChangeThroughInput</type>
+        </param>
+        <param>
+          <type>&quot;Flexi.Modes.Block.ChangeThroughInput&quot;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Private/Miscellaneous/FlexiCamTags.cpp" line="6" column="1" declfile="Source/FlexiCam/Private/Miscellaneous/FlexiCamTags.cpp" declline="6" declcolumn="1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Copyright<sp/>(c)<sp/>2025<sp/>Egor<sp/>Ermakov.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Miscellaneous/FlexiCamTags.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">UE_DEFINE_GAMEPLAY_TAG(TAG_SideScrollingMovement,<sp/></highlight><highlight class="stringliteral">&quot;Flexi.Movement.SideScroller&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">UE_DEFINE_GAMEPLAY_TAG(TAG_DisableChangeThroughInput,<sp/></highlight><highlight class="stringliteral">&quot;Flexi.Modes.Block.ChangeThroughInput&quot;</highlight><highlight class="normal">);</highlight></codeline>
+    </programlisting>
+    <location file="Source/FlexiCam/Private/Miscellaneous/FlexiCamTags.cpp"/>
+  </compounddef>
+</doxygen>

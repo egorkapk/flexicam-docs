@@ -1,0 +1,901 @@
+<!DOCTYPE html><html lang="en" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Camera Modes Plugin for Unreal Engine 5">
+      
+      
+        <meta name="author" content="egorkapk">
+      
+      
+        <link rel="canonical" href="https://github.com/egorkapk/flexicam-docs/tutorial/">
+      
+      
+        <link rel="prev" href="../installation/">
+      
+      
+        <link rel="next" href="../examples/overview/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Tutorial - FlexiCam Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#flexicam-blueprints-tutorial" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="FlexiCam Documentation" class="md-header__button md-logo" aria-label="FlexiCam Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            FlexiCam Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Tutorial
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../overview/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Overview
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../installation/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Installation
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Tutorial
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../examples/overview/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Examples
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../%D0%A1%2B%2BAPI/annotated/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  C++ API Reference
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="FlexiCam Documentation" class="md-nav__button md-logo" aria-label="FlexiCam Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+
+    </a>
+    FlexiCam Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../installation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Installation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tutorial
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tutorial
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prerequisites
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#third-person-camera-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Third Person Camera Mode
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#flexicam-interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        FlexiCam Interface
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#creating-custom-camera-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Creating custom Camera Mode
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#camera-mode-trigger" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Camera Mode Trigger
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#blend-camera-modes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Blend Camera Modes
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../examples/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Examples
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%A1%2B%2BAPI/annotated/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    C++ API Reference
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prerequisites
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#third-person-camera-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Third Person Camera Mode
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#flexicam-interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        FlexiCam Interface
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#creating-custom-camera-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Creating custom Camera Mode
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#camera-mode-trigger" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Camera Mode Trigger
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#blend-camera-modes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Blend Camera Modes
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="flexicam-blueprints-tutorial">FlexiCam Blueprints Tutorial</h1>
+<p>Step-by-step example of how to create your own <code>Character</code> setup and <a href="../camera-mode/"><code>Camera Mode</code></a></p>
+<hr>
+<h2 id="prerequisites">Prerequisites</h2>
+<ul>
+<li>A character Blueprint with basic movement (the Third Person Template character, etc.)</li>
+</ul>
+<hr>
+<h2 id="third-person-camera-mode">Third Person Camera Mode</h2>
+<p>This section shows how to set up basic <a href="../examples/third-person-mode/"><code>Third Person Camera Mode</code></a></p>
+<ol>
+<li>
+<p>Add <code>SpringArmComponent</code> to your Blueprint</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../resources/Add%20Spring%20arm.png" data-desc-position="bottom"><img alt="alt text" src="../resources/Add%20Spring%20arm.png"></a></p>
+</li>
+<li>
+<p>Add <a href="../camera-component/"><code>FlexiCameraComponent</code></a></p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../resources/Add%20Camera%20Component.png" data-desc-position="bottom"><img alt="alt text" src="../resources/Add%20Camera%20Component.png"></a></p>
+</li>
+<li>
+<p>Make the <a href="../camera-component/"><code>FlexiCameraComponent</code></a> a child of the <code>SpringArmComponent</code></p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../resources/Set%20Camera%20Component.png" data-desc-position="bottom"><img alt="alt text" src="../resources/Set%20Camera%20Component.png"></a></p>
+</li>
+<li>
+<p>Add <a href="../camera-mode-manager/"><code>FlexiCameraModeManagerComponent</code></a> to your Blueprint</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../resources/Add%20Camera%20Manager.png" data-desc-position="bottom"><img alt="alt text" src="../resources/Add%20Camera%20Manager.png"></a></p>
+</li>
+<li>
+<p>Set <code>Default Camera Mode Class</code> in <a href="../camera-mode-manager/"><code>FlexiCameraModeManagerComponent</code></a> to <a href="../examples/third-person-mode/"><code>BP_ThirdPersonMode</code></a></p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../resources/Set%20Default%20Mode.png" data-desc-position="bottom"><img alt="alt text" src="../resources/Set%20Default%20Mode.png"></a></p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>If you don’t perform this step, the View Transform will be zero.</p>
+</div>
+<p>You now have a basic Third Person camera set up.</p>
+</li>
+</ol>
+<hr>
+<h2 id="flexicam-interface">FlexiCam Interface</h2>
+<p>To work properly with other plugin systems, such as <a href="../camera-mode-trigger/">Camera Mode Trigger</a> our character need to implement <a href="../flexicam-interface/">FlexiCam Interface</a></p>
+<ol>
+<li>
+<p>Go to <code>Class Settings</code> menu on top of editor</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../resources/ClassSettings.png" data-desc-position="bottom"><img alt="alt text" src="../resources/ClassSettings.png"></a></p>
+</li>
+<li>
+<p>Inside <code>Details</code> panel in <code>Implemented Interfaces</code> property click on add button and search for <code>FlexiCamInterface</code> </p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../resources/Interface%20add.png" data-desc-position="bottom"><img alt="alt text" src="../resources/Interface%20add.png"></a></p>
+</li>
+<li>
+<p>On the left side of the Editor find <code>FlexiCamInterface</code> and double-click on <code>GetFlexiCameraModeManagerComponent</code> function</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../resources/interface%20override.png" data-desc-position="bottom"><img alt="alt text" src="../resources/interface%20override.png"></a></p>
+</li>
+<li>
+<p>Drag and drop <code>Camera Manager Component</code> from <code>Components</code> panel and place it to Return Value</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../resources/Interface%20final%20function.png" data-desc-position="bottom"><img alt="alt text" src="../resources/Interface%20final%20function.png"></a></p>
+</li>
+</ol>
+<hr>
+<h2 id="creating-custom-camera-mode">Creating custom <a href="../camera-mode/"><code>Camera Mode</code></a></h2>
+<ol>
+<li>
+<p>Open <code>Content Browser</code>, press <code>Right Mouse Button</code> and select <code>Blueprint Class</code> menu</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../resources/Create%20Blueprint.png" data-desc-position="bottom"><img alt="alt text" src="../resources/Create%20Blueprint.png"></a></p>
+</li>
+<li>
+<p>Press <code>All CLASSES</code> and search for <a href="../camera-mode/"><code>FlexiCameraMode</code></a></p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../resources/Create%20Camera%20Mode.png" data-desc-position="bottom"><img alt="alt text" src="../resources/Create%20Camera%20Mode.png"></a></p>
+<p>Create Blueprint and name in CM_SideScroller.
+Open this Blueprint.</p>
+</li>
+<li>
+<p>In the <code>Functions</code> menu of your Blueprint select <code>Override</code> option and choose <code>Update View</code> function</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../resources/Add%20update%20view.png" data-desc-position="bottom"><img alt="alt text" src="../resources/Add%20update%20view.png"></a></p>
+</li>
+<li>
+<p>Press <code>Right Mouse Button</code> inside of Event Graph and search for <code>Get Pivot Location</code> function
+    !!! tip
+        This function returns location of <code>Actor</code> that have <a href="../camera-component/"><code>FlexiCameraComponent</code></a> and this mode applied.</p>
+</li>
+<li>
+<p>Add two variables to the Blueprint as shown in the image.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../resources/Create%20variables.png" data-desc-position="bottom"><img alt="alt text" src="../resources/Create%20variables.png"></a></p>
+<p>Drag and drop them into Event Graph (with Get option).</p>
+</li>
+<li>
+<p>Drag pin from <code>Default Rotation</code> variable and search for <code>Rotate Vector</code> function</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../resources/Rotate%20vector.png" data-desc-position="bottom"><img alt="alt text" src="../resources/Rotate%20vector.png"></a></p>
+</li>
+</ol>
+<p>Connect <code>Camera offset</code> variable to it</p>
+<div class="highlight"><pre><span></span><code>![alt text](&lt;resources/Rotate vector result.png&gt;)
+</code></pre></div>
+<ol>
+<li>
+<p>Drag <code>Return Value</code> pin of <code>Get Pivot Location</code> function  and search for <code>"+"</code> sign</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../resources/Add%20vector.png" data-desc-position="bottom"><img alt="alt text" src="../resources/Add%20vector.png"></a></p>
+<p>Connect <code>Rotate Vector</code> result to add function</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../resources/Add%20vector%20reuslt.png" data-desc-position="bottom"><img alt="alt text" src="../resources/Add%20vector%20reuslt.png"></a></p>
+</li>
+<li>
+<p>Now search for <a href="../camera-mode/#flexicameramodeview"><code>ModeView</code></a> struct. Choose <code>Set</code> option</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../resources/Set%20ModeView.png" data-desc-position="bottom"><img alt="alt text" src="../resources/Set%20ModeView.png"></a></p>
+<p>Drag out <code>Mode View</code> pin and select <code>Make FlexiCameraModeView</code></p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../resources/Make%20Struct.png" data-desc-position="bottom"><img alt="alt text" src="../resources/Make%20Struct.png"></a></p>
+</li>
+<li>
+<p>Connect pins as shown in the image below</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="resources/Full result.png" data-desc-position="bottom"><img alt="alt text" src="resources/Full result.png"></a></p>
+</li>
+<li>
+<p>Select <code>Camera offset</code> variable and set default value to <code>-500.0 | 0.0 | 0.0</code></p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../resources/Set%20offset%20default.png" data-desc-position="bottom"><img alt="alt text" src="../resources/Set%20offset%20default.png"></a></p>
+</li>
+</ol>
+<p>Now we have a fully functional Side Scroller mode. Let’s see how to activate it.</p>
+<hr>
+<h2 id="camera-mode-trigger">Camera Mode Trigger</h2>
+<ol>
+<li>
+<p>In <code>Content Browser</code> create <a href="../camera-mode-trigger/"><code>FlexiCameraModeTrigger</code></a> Blueprint</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../resources/Create%20Trigger.png" data-desc-position="bottom"><img alt="alt text" src="../resources/Create%20Trigger.png"></a></p>
+<p>Call it <code>CMT_SideScroller</code></p>
+</li>
+<li>
+<p>Inside this Blueprint set <code>Camera Mode Class</code> variable to our <code>CM_SideScroller</code></p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../resources/Set%20Triggers%20Mode.png" data-desc-position="bottom"><img alt="alt text" src="../resources/Set%20Triggers%20Mode.png"></a></p>
+</li>
+<li>
+<p>Place the trigger in your level and scale it to the desired size</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../resources/Trigger%20in%20world.png" data-desc-position="bottom"><img alt="alt text" src="../resources/Trigger%20in%20world.png"></a></p>
+</li>
+</ol>
+<p>Now when Character inside of <code>CMT_SideScroller</code> our new <code>CameraMode</code> is active.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>You can change camera angle by change <code>Default Rotation</code> inside  <code>CM_SideScroller</code> Blueprint</p>
+</div>
+<hr>
+<h2 id="blend-camera-modes">Blend Camera Modes</h2>
+<p>Let’s make the blending between our two CameraModes smoother.</p>
+<ol>
+<li>Open <code>CM_SideScroller</code> Blueprint</li>
+<li>Open <code>Class Defaults</code> menu</li>
+<li>
+<p>Set blending properties as shown below</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../resources/Set%20blending.png" data-desc-position="bottom"><img alt="alt text" src="../resources/Set%20blending.png"></a></p>
+</li>
+</ol>
+<p>See the difference.</p>
+<p>Congratulations! Now you know how to set up your own <code>Camera Modes</code>.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>To see how to change input by camera mode see <a href="../examples/flexicam-character/">BP_FlexiCamCharacter</a></p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "content.code.copy", "content.images", "search.highlight", "search.suggest"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>

@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structFFlexiCameraModeView" kind="struct" language="C++" prot="public">
+    <compoundname>FFlexiCameraModeView</compoundname>
+    <includes refid="FlexiCameraMode_8h" local="no">FlexiCameraMode.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structFFlexiCameraModeView_1a283ab1e03a098260eeafad0e69f6eb45" prot="public" static="no" mutable="no">
+        <type>FVector</type>
+        <definition>FVector FFlexiCameraModeView::Location</definition>
+        <argsstring></argsstring>
+        <name>Location</name>
+        <qualifiedname>FFlexiCameraModeView::Location</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" line="57" column="9" bodyfile="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structFFlexiCameraModeView_1a3ef789bcf0de5d709c2a9d2f5b66e866" prot="public" static="no" mutable="no">
+        <type>FRotator</type>
+        <definition>FRotator FFlexiCameraModeView::Rotation</definition>
+        <argsstring></argsstring>
+        <name>Rotation</name>
+        <qualifiedname>FFlexiCameraModeView::Rotation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" line="59" column="10" bodyfile="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structFFlexiCameraModeView_1ac662e64a877db82af40a303a910e71ea" prot="public" static="no" mutable="no">
+        <type>FRotator</type>
+        <definition>FRotator FFlexiCameraModeView::ControlRotation</definition>
+        <argsstring></argsstring>
+        <name>ControlRotation</name>
+        <qualifiedname>FFlexiCameraModeView::ControlRotation</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" line="61" column="10" bodyfile="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structFFlexiCameraModeView_1aa8f3d02f61fed977321cfe8c9864a16d" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float FFlexiCameraModeView::FieldOfView</definition>
+        <argsstring></argsstring>
+        <name>FieldOfView</name>
+        <qualifiedname>FFlexiCameraModeView::FieldOfView</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" line="63" column="7" bodyfile="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structFFlexiCameraModeView_1a27956afa4db4e33c6e7d071011104a62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>FFlexiCameraModeView::FFlexiCameraModeView</definition>
+        <argsstring>()</argsstring>
+        <name>FFlexiCameraModeView</name>
+        <qualifiedname>FFlexiCameraModeView::FFlexiCameraModeView</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" line="51" column="1" bodyfile="Source/FlexiCam/Private/CameraModes/FlexiCameraMode.cpp" bodystart="13" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="structFFlexiCameraModeView_1aaf9b012969ad67f15f5c45d8521edd5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void FFlexiCameraModeView::Blend</definition>
+        <argsstring>(const FFlexiCameraModeView &amp;Other, float OtherWeight)</argsstring>
+        <name>Blend</name>
+        <qualifiedname>FFlexiCameraModeView::Blend</qualifiedname>
+        <param>
+          <type>const <ref refid="structFFlexiCameraModeView" kindref="compound">FFlexiCameraModeView</ref> &amp;</type>
+          <declname>Other</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>OtherWeight</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" line="53" column="6" bodyfile="Source/FlexiCam/Private/CameraModes/FlexiCameraMode.cpp" bodystart="21" bodyend="43"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>FCameraModeView</para>
+<para>View data produced by the camera mode that is used to blend camera modes. </para>
+    </detaileddescription>
+    <location file="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" line="45" column="1" bodyfile="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" bodystart="46" bodyend="64"/>
+    <listofallmembers>
+      <member refid="structFFlexiCameraModeView_1aaf9b012969ad67f15f5c45d8521edd5d" prot="public" virt="non-virtual"><scope>FFlexiCameraModeView</scope><name>Blend</name></member>
+      <member refid="structFFlexiCameraModeView_1ac662e64a877db82af40a303a910e71ea" prot="public" virt="non-virtual"><scope>FFlexiCameraModeView</scope><name>ControlRotation</name></member>
+      <member refid="structFFlexiCameraModeView_1a27956afa4db4e33c6e7d071011104a62" prot="public" virt="non-virtual"><scope>FFlexiCameraModeView</scope><name>FFlexiCameraModeView</name></member>
+      <member refid="structFFlexiCameraModeView_1aa8f3d02f61fed977321cfe8c9864a16d" prot="public" virt="non-virtual"><scope>FFlexiCameraModeView</scope><name>FieldOfView</name></member>
+      <member refid="structFFlexiCameraModeView_1a283ab1e03a098260eeafad0e69f6eb45" prot="public" virt="non-virtual"><scope>FFlexiCameraModeView</scope><name>Location</name></member>
+      <member refid="structFFlexiCameraModeView_1a3ef789bcf0de5d709c2a9d2f5b66e866" prot="public" virt="non-virtual"><scope>FFlexiCameraModeView</scope><name>Rotation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

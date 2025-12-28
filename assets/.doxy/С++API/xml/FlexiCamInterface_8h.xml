@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="FlexiCamInterface_8h" kind="file" language="C++">
+    <compoundname>FlexiCamInterface.h</compoundname>
+    <includes local="yes">CoreMinimal.h</includes>
+    <includes local="yes">UObject/Interface.h</includes>
+    <includes local="yes">FlexiCamInterface.generated.h</includes>
+    <includedby refid="FlexiCamInterface_8cpp" local="yes">Source/FlexiCam/Private/FlexiCamInterface.cpp</includedby>
+    <includedby refid="FlexiCameraModeTrigger_8cpp" local="yes">Source/FlexiCam/Private/Miscellaneous/FlexiCameraModeTrigger.cpp</includedby>
+    <includedby refid="FlexiCamCharacter_8h" local="yes">Source/FlexiCam/Public/Examples/FlexiCamCharacter.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>Source/FlexiCam/Public/FlexiCamInterface.h</label>
+        <link refid="FlexiCamInterface_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>CoreMinimal.h</label>
+      </node>
+      <node id="4">
+        <label>FlexiCamInterface.generated.h</label>
+      </node>
+      <node id="3">
+        <label>UObject/Interface.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>Source/FlexiCam/Public/Examples/FlexiCamCharacter.h</label>
+        <link refid="FlexiCamCharacter_8h_source"/>
+      </node>
+      <node id="1">
+        <label>Source/FlexiCam/Public/FlexiCamInterface.h</label>
+        <link refid="FlexiCamInterface_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classUFlexiCamInterface" prot="public">UFlexiCamInterface</innerclass>
+    <innerclass refid="classIFlexiCamInterface" prot="public">IFlexiCamInterface</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Copyright<sp/>(c)<sp/>2025<sp/>Egor<sp/>Ermakov.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;CoreMinimal.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;UObject/Interface.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;FlexiCamInterface.generated.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">UFlexiCameraModeManagerComponent;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>class<sp/>does<sp/>not<sp/>need<sp/>to<sp/>be<sp/>modified.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">UINTERFACE(MinimalAPI)</highlight></codeline>
+<codeline lineno="13" refid="classUFlexiCamInterface" refkind="compound"><highlight class="normal">class<sp/><ref refid="classUFlexiCamInterface" kindref="compound">UFlexiCamInterface</ref><sp/>:<sp/>public<sp/>UInterface</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="classIFlexiCamInterface" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">FLEXICAM_API<sp/><ref refid="classIFlexiCamInterface" kindref="compound">IFlexiCamInterface</ref></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Add<sp/>interface<sp/>functions<sp/>to<sp/>this<sp/>class.<sp/>This<sp/>is<sp/>the<sp/>class<sp/>that<sp/>will<sp/>be<sp/>inherited<sp/>to<sp/>implement<sp/>this<sp/>interface.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>BlueprintNativeEvent,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;FlexiCamInterface&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>UFlexiCameraModeManagerComponent*<sp/>GetFlexiCameraModeManagerComponent()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="Source/FlexiCam/Public/FlexiCamInterface.h"/>
+  </compounddef>
+</doxygen>

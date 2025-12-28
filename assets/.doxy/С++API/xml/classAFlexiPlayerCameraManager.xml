@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classAFlexiPlayerCameraManager" kind="class" language="C++" prot="public">
+    <compoundname>AFlexiPlayerCameraManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">APlayerCameraManager</basecompoundref>
+    <includes refid="FlexiPlayerCameraManager_8h" local="no">FlexiPlayerCameraManager.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classAFlexiPlayerCameraManager_1a14fdf78cdc40bdf7689216a2fb4a0a84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>AFlexiPlayerCameraManager::AFlexiPlayerCameraManager</definition>
+        <argsstring>(const FObjectInitializer &amp;ObjectInitializer)</argsstring>
+        <name>AFlexiPlayerCameraManager</name>
+        <qualifiedname>AFlexiPlayerCameraManager::AFlexiPlayerCameraManager</qualifiedname>
+        <param>
+          <type>const FObjectInitializer &amp;</type>
+          <declname>ObjectInitializer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/FlexiPlayerCameraManager.h" line="22" column="1" bodyfile="Source/FlexiCam/Private/FlexiPlayerCameraManager.cpp" bodystart="6" bodyend="11"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The base player camera manager class used by FlexiCam plugin. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AFlexiPlayerCameraManager</label>
+        <link refid="classAFlexiPlayerCameraManager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>APlayerCameraManager</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AFlexiPlayerCameraManager</label>
+        <link refid="classAFlexiPlayerCameraManager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>APlayerCameraManager</label>
+      </node>
+    </collaborationgraph>
+    <location file="Source/FlexiCam/Public/FlexiPlayerCameraManager.h" line="17" column="1" bodyfile="Source/FlexiCam/Public/FlexiPlayerCameraManager.h" bodystart="18" bodyend="23"/>
+    <listofallmembers>
+      <member refid="classAFlexiPlayerCameraManager_1a14fdf78cdc40bdf7689216a2fb4a0a84" prot="public" virt="non-virtual"><scope>AFlexiPlayerCameraManager</scope><name>AFlexiPlayerCameraManager</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

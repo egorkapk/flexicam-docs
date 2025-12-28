@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="FlexiCameraComponent_8h" kind="file" language="C++">
+    <compoundname>FlexiCameraComponent.h</compoundname>
+    <includes local="yes">CoreMinimal.h</includes>
+    <includes local="yes">Camera/CameraComponent.h</includes>
+    <includes local="yes">FlexiCameraComponent.generated.h</includes>
+    <includedby refid="FlexiCameraMode_8cpp" local="yes">Source/FlexiCam/Private/CameraModes/FlexiCameraMode.cpp</includedby>
+    <includedby refid="FlexiCamCharacter_8cpp" local="yes">Source/FlexiCam/Private/Examples/FlexiCamCharacter.cpp</includedby>
+    <includedby refid="FlexiCameraComponent_8cpp" local="yes">Source/FlexiCam/Private/FlexiCameraComponent.cpp</includedby>
+    <includedby refid="FlexiCameraModeManagerComponent_8cpp" local="yes">Source/FlexiCam/Private/FlexiCameraModeManagerComponent.cpp</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>Source/FlexiCam/Public/FlexiCameraComponent.h</label>
+        <link refid="FlexiCameraComponent_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Camera/CameraComponent.h</label>
+      </node>
+      <node id="2">
+        <label>CoreMinimal.h</label>
+      </node>
+      <node id="4">
+        <label>FlexiCameraComponent.generated.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="FlexiCameraComponent_8h_1a2cb6ac985e5133868af0f75cb0f1edbb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>meta</definition>
+        <argsstring></argsstring>
+        <name>meta</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/FlexiCameraComponent.h" line="21" column="3" bodyfile="Source/FlexiCam/Public/FlexiCameraComponent.h" bodystart="21" bodyend="62"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="FlexiCameraComponent_8h_1a5a43eee71663cfd5f6f29defabd528bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DECLARE_DELEGATE_RetVal</definition>
+        <argsstring>(TSubclassOf&lt; UFlexiCameraMode &gt;, FFlexiCameraModeDelegate) UCLASS(ClassGroup</argsstring>
+        <name>DECLARE_DELEGATE_RetVal</name>
+        <param>
+          <type>TSubclassOf&lt; <ref refid="classUFlexiCameraMode" kindref="compound">UFlexiCameraMode</ref> &gt;</type>
+        </param>
+        <param>
+          <type>FFlexiCameraModeDelegate</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Base camera component class for FlexiCam </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/FlexiCameraComponent.h" line="16" column="1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Copyright<sp/>(c)<sp/>2025<sp/>Egor<sp/>Ermakov.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;CoreMinimal.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Camera/CameraComponent.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;FlexiCameraComponent.generated.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classUFlexiCameraMode" kindref="compound">UFlexiCameraMode</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classUFlexiCameraModeStack" kindref="compound">UFlexiCameraModeStack</ref>;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">FMinimalViewInfo;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">FGameplayTag;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">FGameplayTagContainer;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">DECLARE_DELEGATE_RetVal(TSubclassOf&lt;UFlexiCameraMode&gt;,<sp/>FFlexiCameraModeDelegate)</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">UCLASS(ClassGroup<sp/>=<sp/>(Custom),<sp/>meta<sp/>=<sp/>(BlueprintSpawnableComponent))</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">FLEXICAM_API<sp/>UFlexiCameraComponent<sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>UCameraComponent</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="26"><highlight class="normal">public:</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>UFlexiCameraComponent(const<sp/>FObjectInitializer&amp;<sp/>ObjectInitializer);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Delegate<sp/>used<sp/>to<sp/>query<sp/>for<sp/>the<sp/>best<sp/>camera<sp/>mode.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>FFlexiCameraModeDelegate<sp/>DetermineCameraModeDelegate;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Returns<sp/>the<sp/>target<sp/>actor<sp/>that<sp/>the<sp/>camera<sp/>is<sp/>looking<sp/>at<sp/>(assigned<sp/>to<sp/>by<sp/>default)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>virtual<sp/>AActor*<sp/>GetTargetActor()<sp/>const;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Returns<sp/>the<sp/>camera<sp/>component<sp/>if<sp/>one<sp/>exists<sp/>on<sp/>the<sp/>specified<sp/>actor.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintPure,<sp/>Category<sp/>=<sp/>&quot;FlexiCam|Camera&quot;)</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>static<sp/>UFlexiCameraComponent*<sp/>FindCameraComponent(const<sp/>AActor*<sp/>Actor);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Add<sp/>an<sp/>offset<sp/>to<sp/>the<sp/>field<sp/>of<sp/>view.<sp/><sp/>The<sp/>offset<sp/>is<sp/>only<sp/>for<sp/>one<sp/>frame,<sp/>it<sp/>gets<sp/>cleared<sp/>once<sp/>it<sp/>is<sp/>applied.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>AddFieldOfViewOffset(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>FovOffset);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Gets<sp/>the<sp/>tag<sp/>associated<sp/>with<sp/>the<sp/>top<sp/>layer<sp/>and<sp/>the<sp/>blend<sp/>weight<sp/>of<sp/>it</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>GetBlendInfo(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">&amp;<sp/>OutWeightOfTopLayer,<sp/>FGameplayTagContainer&amp;<sp/>OutTagsOfTopLayer)<sp/>const;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>HasAnyTagOnStack(const<sp/>FGameplayTagContainer&amp;<sp/>TagsToCheck);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal">protected:</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>virtual<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>OnRegister()<sp/>override;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>virtual<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>GetCameraView(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>DeltaTime,<sp/>FMinimalViewInfo&amp;<sp/>DesiredView)<sp/>override;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>virtual<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>UpdateCameraModes();</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal">protected:</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Stack<sp/>used<sp/>to<sp/>blend<sp/>the<sp/>camera<sp/>modes.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY()</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>TObjectPtr&lt;<ref refid="classUFlexiCameraModeStack" kindref="compound">UFlexiCameraModeStack</ref>&gt;<sp/>CameraModeStack;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Offset<sp/>applied<sp/>to<sp/>the<sp/>field<sp/>of<sp/>view.<sp/><sp/>The<sp/>offset<sp/>is<sp/>only<sp/>for<sp/>one<sp/>frame,<sp/>it<sp/>gets<sp/>cleared<sp/>once<sp/>it<sp/>is<sp/>applied.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>FieldOfViewOffset;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="Source/FlexiCam/Public/FlexiCameraComponent.h"/>
+  </compounddef>
+</doxygen>

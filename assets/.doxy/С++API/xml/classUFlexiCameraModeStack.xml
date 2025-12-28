@@ -1,0 +1,291 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classUFlexiCameraModeStack" kind="class" language="C++" prot="public">
+    <compoundname>UFlexiCameraModeStack</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UObject</basecompoundref>
+    <includes refid="FlexiCameraMode_8h" local="no">FlexiCameraMode.h</includes>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classUFlexiCameraModeStack_1af371eee304c52dcc03605c459c75447e" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UFlexiCameraModeStack::bIsActive</definition>
+        <argsstring></argsstring>
+        <name>bIsActive</name>
+        <qualifiedname>UFlexiCameraModeStack::bIsActive</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" line="199" column="6" bodyfile="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" bodystart="199" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUFlexiCameraModeStack_1a202363fdfd256648b59132a75edf6d00" prot="protected" static="no" mutable="no">
+        <type>TArray&lt; TObjectPtr&lt; <ref refid="classUFlexiCameraMode" kindref="compound">UFlexiCameraMode</ref> &gt; &gt;</type>
+        <definition>TArray&lt;TObjectPtr&lt;UFlexiCameraMode&gt; &gt; UFlexiCameraModeStack::CameraModeInstances</definition>
+        <argsstring></argsstring>
+        <name>CameraModeInstances</name>
+        <qualifiedname>UFlexiCameraModeStack::CameraModeInstances</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" line="202" column="8" bodyfile="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" bodystart="202" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classUFlexiCameraModeStack_1a8d637520aa55b4ef1aaaa9dd1aa97759" prot="protected" static="no" mutable="no">
+        <type>TArray&lt; TObjectPtr&lt; <ref refid="classUFlexiCameraMode" kindref="compound">UFlexiCameraMode</ref> &gt; &gt;</type>
+        <definition>TArray&lt;TObjectPtr&lt;UFlexiCameraMode&gt; &gt; UFlexiCameraModeStack::CameraModeStack</definition>
+        <argsstring></argsstring>
+        <name>CameraModeStack</name>
+        <qualifiedname>UFlexiCameraModeStack::CameraModeStack</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" line="205" column="8" bodyfile="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" bodystart="205" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classUFlexiCameraModeStack_1a9784319b502255f9f166d4fb72eb929d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>UFlexiCameraModeStack::UFlexiCameraModeStack</definition>
+        <argsstring>()</argsstring>
+        <name>UFlexiCameraModeStack</name>
+        <qualifiedname>UFlexiCameraModeStack::UFlexiCameraModeStack</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" line="175" column="1" bodyfile="Source/FlexiCam/Private/CameraModes/FlexiCameraMode.cpp" bodystart="251" bodyend="254"/>
+      </memberdef>
+      <memberdef kind="function" id="classUFlexiCameraModeStack_1a41bf454ac8694409f43edd92e073439f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UFlexiCameraModeStack::ActivateStack</definition>
+        <argsstring>()</argsstring>
+        <name>ActivateStack</name>
+        <qualifiedname>UFlexiCameraModeStack::ActivateStack</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" line="177" column="6" bodyfile="Source/FlexiCam/Private/CameraModes/FlexiCameraMode.cpp" bodystart="256" bodyend="269"/>
+      </memberdef>
+      <memberdef kind="function" id="classUFlexiCameraModeStack_1ae9a18f4dedb7de2cfe987ce5bf8c7e08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UFlexiCameraModeStack::DeactivateStack</definition>
+        <argsstring>()</argsstring>
+        <name>DeactivateStack</name>
+        <qualifiedname>UFlexiCameraModeStack::DeactivateStack</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" line="178" column="6" bodyfile="Source/FlexiCam/Private/CameraModes/FlexiCameraMode.cpp" bodystart="271" bodyend="284"/>
+      </memberdef>
+      <memberdef kind="function" id="classUFlexiCameraModeStack_1adae7d691492c64bb05c14fa6c579ab4b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool UFlexiCameraModeStack::IsStackActivate</definition>
+        <argsstring>() const</argsstring>
+        <name>IsStackActivate</name>
+        <qualifiedname>UFlexiCameraModeStack::IsStackActivate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" line="180" column="6" bodyfile="Source/FlexiCam/Private/CameraModes/FlexiCameraMode.cpp" bodystart="286" bodyend="289"/>
+      </memberdef>
+      <memberdef kind="function" id="classUFlexiCameraModeStack_1a13b60ec53a3d79cdadc93c3f15a181b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UFlexiCameraModeStack::PushCameraMode</definition>
+        <argsstring>(TSubclassOf&lt; UFlexiCameraMode &gt; CameraModeClass)</argsstring>
+        <name>PushCameraMode</name>
+        <qualifiedname>UFlexiCameraModeStack::PushCameraMode</qualifiedname>
+        <param>
+          <type>TSubclassOf&lt; <ref refid="classUFlexiCameraMode" kindref="compound">UFlexiCameraMode</ref> &gt;</type>
+          <declname>CameraModeClass</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" line="182" column="6" bodyfile="Source/FlexiCam/Private/CameraModes/FlexiCameraMode.cpp" bodystart="291" bodyend="355"/>
+      </memberdef>
+      <memberdef kind="function" id="classUFlexiCameraModeStack_1ae51127c5d7f9f78acf8e106a69c8ccb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool UFlexiCameraModeStack::EvaluateStack</definition>
+        <argsstring>(float DeltaTime, FFlexiCameraModeView &amp;OutCameraModeView)</argsstring>
+        <name>EvaluateStack</name>
+        <qualifiedname>UFlexiCameraModeStack::EvaluateStack</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>DeltaTime</declname>
+        </param>
+        <param>
+          <type><ref refid="structFFlexiCameraModeView" kindref="compound">FFlexiCameraModeView</ref> &amp;</type>
+          <declname>OutCameraModeView</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" line="184" column="6" bodyfile="Source/FlexiCam/Private/CameraModes/FlexiCameraMode.cpp" bodystart="357" bodyend="368"/>
+      </memberdef>
+      <memberdef kind="function" id="classUFlexiCameraModeStack_1aa35c3ce7bc84c570f54743f3155a38b4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UFlexiCameraModeStack::GetBlendInfo</definition>
+        <argsstring>(float &amp;OutWeightOfTopLayer, FGameplayTagContainer &amp;OutTagsOfTopLayer) const</argsstring>
+        <name>GetBlendInfo</name>
+        <qualifiedname>UFlexiCameraModeStack::GetBlendInfo</qualifiedname>
+        <param>
+          <type>float &amp;</type>
+          <declname>OutWeightOfTopLayer</declname>
+        </param>
+        <param>
+          <type>FGameplayTagContainer &amp;</type>
+          <declname>OutTagsOfTopLayer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" line="187" column="6" bodyfile="Source/FlexiCam/Private/CameraModes/FlexiCameraMode.cpp" bodystart="370" bodyend="385"/>
+      </memberdef>
+      <memberdef kind="function" id="classUFlexiCameraModeStack_1ad21e56c9ed4a71fa92eb742f6a72c229" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool UFlexiCameraModeStack::HasAnyTagOnStack</definition>
+        <argsstring>(const FGameplayTagContainer &amp;TagsToCheck)</argsstring>
+        <name>HasAnyTagOnStack</name>
+        <qualifiedname>UFlexiCameraModeStack::HasAnyTagOnStack</qualifiedname>
+        <param>
+          <type>const FGameplayTagContainer &amp;</type>
+          <declname>TagsToCheck</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" line="188" column="6" bodyfile="Source/FlexiCam/Private/CameraModes/FlexiCameraMode.cpp" bodystart="387" bodyend="401"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classUFlexiCameraModeStack_1aab61db8a7cf0de997c134d0b4855d0c7" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classUFlexiCameraMode" kindref="compound">UFlexiCameraMode</ref> *</type>
+        <definition>UFlexiCameraMode * UFlexiCameraModeStack::GetCameraModeInstance</definition>
+        <argsstring>(TSubclassOf&lt; UFlexiCameraMode &gt; CameraModeClass)</argsstring>
+        <name>GetCameraModeInstance</name>
+        <qualifiedname>UFlexiCameraModeStack::GetCameraModeInstance</qualifiedname>
+        <param>
+          <type>TSubclassOf&lt; <ref refid="classUFlexiCameraMode" kindref="compound">UFlexiCameraMode</ref> &gt;</type>
+          <declname>CameraModeClass</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" line="192" column="18" bodyfile="Source/FlexiCam/Private/CameraModes/FlexiCameraMode.cpp" bodystart="404" bodyend="424"/>
+      </memberdef>
+      <memberdef kind="function" id="classUFlexiCameraModeStack_1aa3dde170dd65f48d07526ffcc1ee3077" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UFlexiCameraModeStack::UpdateStack</definition>
+        <argsstring>(float DeltaTime)</argsstring>
+        <name>UpdateStack</name>
+        <qualifiedname>UFlexiCameraModeStack::UpdateStack</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>DeltaTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" line="194" column="6" bodyfile="Source/FlexiCam/Private/CameraModes/FlexiCameraMode.cpp" bodystart="449" bodyend="489"/>
+      </memberdef>
+      <memberdef kind="function" id="classUFlexiCameraModeStack_1a30b021748e1d8ccfed2f1ea740358556" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UFlexiCameraModeStack::BlendStack</definition>
+        <argsstring>(FFlexiCameraModeView &amp;OutCameraModeView) const</argsstring>
+        <name>BlendStack</name>
+        <qualifiedname>UFlexiCameraModeStack::BlendStack</qualifiedname>
+        <param>
+          <type><ref refid="structFFlexiCameraModeView" kindref="compound">FFlexiCameraModeView</ref> &amp;</type>
+          <declname>OutCameraModeView</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" line="195" column="6" bodyfile="Source/FlexiCam/Private/CameraModes/FlexiCameraMode.cpp" bodystart="426" bodyend="447"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classUFlexiCameraModeStack" kindref="compound">UFlexiCameraModeStack</ref></para>
+<para>Stack used for blending camera modes. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>UFlexiCameraModeStack</label>
+        <link refid="classUFlexiCameraModeStack"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>UObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>UFlexiCameraModeStack</label>
+        <link refid="classUFlexiCameraModeStack"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>UObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" line="169" column="1" bodyfile="Source/FlexiCam/Public/CameraModes/FlexiCameraMode.h" bodystart="170" bodyend="206"/>
+    <listofallmembers>
+      <member refid="classUFlexiCameraModeStack_1a41bf454ac8694409f43edd92e073439f" prot="public" virt="non-virtual"><scope>UFlexiCameraModeStack</scope><name>ActivateStack</name></member>
+      <member refid="classUFlexiCameraModeStack_1af371eee304c52dcc03605c459c75447e" prot="protected" virt="non-virtual"><scope>UFlexiCameraModeStack</scope><name>bIsActive</name></member>
+      <member refid="classUFlexiCameraModeStack_1a30b021748e1d8ccfed2f1ea740358556" prot="protected" virt="non-virtual"><scope>UFlexiCameraModeStack</scope><name>BlendStack</name></member>
+      <member refid="classUFlexiCameraModeStack_1a202363fdfd256648b59132a75edf6d00" prot="protected" virt="non-virtual"><scope>UFlexiCameraModeStack</scope><name>CameraModeInstances</name></member>
+      <member refid="classUFlexiCameraModeStack_1a8d637520aa55b4ef1aaaa9dd1aa97759" prot="protected" virt="non-virtual"><scope>UFlexiCameraModeStack</scope><name>CameraModeStack</name></member>
+      <member refid="classUFlexiCameraModeStack_1ae9a18f4dedb7de2cfe987ce5bf8c7e08" prot="public" virt="non-virtual"><scope>UFlexiCameraModeStack</scope><name>DeactivateStack</name></member>
+      <member refid="classUFlexiCameraModeStack_1ae51127c5d7f9f78acf8e106a69c8ccb7" prot="public" virt="non-virtual"><scope>UFlexiCameraModeStack</scope><name>EvaluateStack</name></member>
+      <member refid="classUFlexiCameraModeStack_1aa35c3ce7bc84c570f54743f3155a38b4" prot="public" virt="non-virtual"><scope>UFlexiCameraModeStack</scope><name>GetBlendInfo</name></member>
+      <member refid="classUFlexiCameraModeStack_1aab61db8a7cf0de997c134d0b4855d0c7" prot="protected" virt="non-virtual"><scope>UFlexiCameraModeStack</scope><name>GetCameraModeInstance</name></member>
+      <member refid="classUFlexiCameraModeStack_1ad21e56c9ed4a71fa92eb742f6a72c229" prot="public" virt="non-virtual"><scope>UFlexiCameraModeStack</scope><name>HasAnyTagOnStack</name></member>
+      <member refid="classUFlexiCameraModeStack_1adae7d691492c64bb05c14fa6c579ab4b" prot="public" virt="non-virtual"><scope>UFlexiCameraModeStack</scope><name>IsStackActivate</name></member>
+      <member refid="classUFlexiCameraModeStack_1a13b60ec53a3d79cdadc93c3f15a181b8" prot="public" virt="non-virtual"><scope>UFlexiCameraModeStack</scope><name>PushCameraMode</name></member>
+      <member refid="classUFlexiCameraModeStack_1a9784319b502255f9f166d4fb72eb929d" prot="public" virt="non-virtual"><scope>UFlexiCameraModeStack</scope><name>UFlexiCameraModeStack</name></member>
+      <member refid="classUFlexiCameraModeStack_1aa3dde170dd65f48d07526ffcc1ee3077" prot="protected" virt="non-virtual"><scope>UFlexiCameraModeStack</scope><name>UpdateStack</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_6b27a9e88764eabb2f71b914689a66ea" kind="dir">
+    <compoundname>Source/FlexiCam/Private/Examples</compoundname>
+    <innerfile refid="FightingCameraMode_8cpp">FightingCameraMode.cpp</innerfile>
+    <innerfile refid="FlexiCamCharacter_8cpp">FlexiCamCharacter.cpp</innerfile>
+    <innerfile refid="FlexiCamPlayerController_8cpp">FlexiCamPlayerController.cpp</innerfile>
+    <innerfile refid="TopDownCameraMode_8cpp">TopDownCameraMode.cpp</innerfile>
+    <innerfile refid="TopDownCameraModeTrigger_8cpp">TopDownCameraModeTrigger.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Source/FlexiCam/Private/Examples/"/>
+  </compounddef>
+</doxygen>

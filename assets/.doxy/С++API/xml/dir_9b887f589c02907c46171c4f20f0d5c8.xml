@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_9b887f589c02907c46171c4f20f0d5c8" kind="dir">
+    <compoundname>Source/FlexiCam/Private/CameraModes</compoundname>
+    <innerfile refid="FlexiCameraMode_8cpp">FlexiCameraMode.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Source/FlexiCam/Private/CameraModes/"/>
+  </compounddef>
+</doxygen>

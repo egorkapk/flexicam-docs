@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="FlexiCamTags_8h" kind="file" language="C++">
+    <compoundname>FlexiCamTags.h</compoundname>
+    <includes local="yes">GameplayTagContainer.h</includes>
+    <includes local="yes">NativeGameplayTags.h</includes>
+    <includedby refid="FlexiCamCharacter_8cpp" local="yes">Source/FlexiCam/Private/Examples/FlexiCamCharacter.cpp</includedby>
+    <includedby refid="FlexiCamTags_8cpp" local="yes">Source/FlexiCam/Private/Miscellaneous/FlexiCamTags.cpp</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>Source/FlexiCam/Public/Miscellaneous/FlexiCamTags.h</label>
+        <link refid="FlexiCamTags_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>GameplayTagContainer.h</label>
+      </node>
+      <node id="3">
+        <label>NativeGameplayTags.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="FlexiCamTags_8h_1ade8ab0a387b8adfeba40192923a30024" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>UE_DECLARE_GAMEPLAY_TAG_EXTERN</definition>
+        <argsstring>(TAG_SideScrollingMovement)</argsstring>
+        <name>UE_DECLARE_GAMEPLAY_TAG_EXTERN</name>
+        <param>
+          <type>TAG_SideScrollingMovement</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/Miscellaneous/FlexiCamTags.h" line="10" column="1" declfile="Source/FlexiCam/Public/Miscellaneous/FlexiCamTags.h" declline="10" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="FlexiCamTags_8h_1ae51511f240d32f20905b8352b7f182bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>UE_DECLARE_GAMEPLAY_TAG_EXTERN</definition>
+        <argsstring>(TAG_DisableChangeThroughInput)</argsstring>
+        <name>UE_DECLARE_GAMEPLAY_TAG_EXTERN</name>
+        <param>
+          <type>TAG_DisableChangeThroughInput</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/Miscellaneous/FlexiCamTags.h" line="11" column="1" declfile="Source/FlexiCam/Public/Miscellaneous/FlexiCamTags.h" declline="11" declcolumn="1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Copyright<sp/>(c)<sp/>2025<sp/>Egor<sp/>Ermakov.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;GameplayTagContainer.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;NativeGameplayTags.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>file<sp/>used<sp/>to<sp/>declare<sp/>FlexiCam<sp/>GameplayTags</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_SideScrollingMovement);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">UE_DECLARE_GAMEPLAY_TAG_EXTERN(TAG_DisableChangeThroughInput);</highlight></codeline>
+    </programlisting>
+    <location file="Source/FlexiCam/Public/Miscellaneous/FlexiCamTags.h"/>
+  </compounddef>
+</doxygen>

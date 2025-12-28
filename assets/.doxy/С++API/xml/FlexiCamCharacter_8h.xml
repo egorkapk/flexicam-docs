@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="FlexiCamCharacter_8h" kind="file" language="C++">
+    <compoundname>FlexiCamCharacter.h</compoundname>
+    <includes local="yes">CoreMinimal.h</includes>
+    <includes local="yes">GameFramework/Character.h</includes>
+    <includes local="yes">Logging/LogMacros.h</includes>
+    <includes refid="FlexiCamInterface_8h" local="yes">FlexiCamInterface.h</includes>
+    <includes local="yes">FlexiCamCharacter.generated.h</includes>
+    <includedby refid="FlexiCamCharacter_8cpp" local="yes">Source/FlexiCam/Private/Examples/FlexiCamCharacter.cpp</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>Source/FlexiCam/Public/Examples/FlexiCamCharacter.h</label>
+        <link refid="FlexiCamCharacter_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>FlexiCamInterface.h</label>
+        <link refid="FlexiCamInterface_8h_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>CoreMinimal.h</label>
+      </node>
+      <node id="8">
+        <label>FlexiCamCharacter.generated.h</label>
+      </node>
+      <node id="7">
+        <label>FlexiCamInterface.generated.h</label>
+      </node>
+      <node id="3">
+        <label>GameFramework/Character.h</label>
+      </node>
+      <node id="4">
+        <label>Logging/LogMacros.h</label>
+      </node>
+      <node id="6">
+        <label>UObject/Interface.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classAFlexiCamCharacter" prot="public">AFlexiCamCharacter</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Copyright<sp/>(c)<sp/>2025<sp/>Egor<sp/>Ermakov.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;CoreMinimal.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;GameFramework/Character.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Logging/LogMacros.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;FlexiCamInterface.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;FlexiCamCharacter.generated.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">USpringArmComponent;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">UFlexiCameraComponent;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">UFlexiCameraModeManagerComponent;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">UInputAction;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">FInputActionValue;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal">UCLASS()</highlight></codeline>
+<codeline lineno="24" refid="classAFlexiCamCharacter" refkind="compound"><highlight class="normal">class<sp/>FLEXICAM_API<sp/><ref refid="classAFlexiCamCharacter" kindref="compound">AFlexiCamCharacter</ref><sp/>:<sp/>public<sp/>ACharacter,<sp/>public<sp/><ref refid="classIFlexiCamInterface" kindref="compound">IFlexiCamInterface</ref></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>GENERATED_BODY()</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Sets<sp/>default<sp/>values<sp/>for<sp/>this<sp/>character&apos;s<sp/>properties</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classAFlexiCamCharacter" kindref="compound">AFlexiCamCharacter</ref>();</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//~<sp/>Begin<sp/>IFlexiCamInterface<sp/>interface</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>UFlexiCameraModeManagerComponent*<sp/>GetFlexiCameraModeManagerComponent_Implementation()<sp/></highlight><highlight class="keyword">const<sp/>override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//~<sp/>End<sp/>IFlexiCamInterface<sp/>interface</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Input&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>DoMove(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>Right,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>Forward);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Input&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>DoLook(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>Yaw,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>Pitch);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Input&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>DoJumpStart();</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>UFUNCTION(BlueprintCallable,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Input&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>DoJumpEnd();</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">USpringArmComponent*<sp/>GetCameraBoom()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>FORCEINLINE<sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">UCameraComponent*<sp/>GetFollowCamera()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SetupPlayerInputComponent(</highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>UInputComponent*<sp/>PlayerInputComponent)<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Move(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FInputActionValue&amp;<sp/>Value);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Look(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FInputActionValue&amp;<sp/>Value);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(VisibleAnywhere,<sp/>BlueprintReadOnly,<sp/>Category<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Components&quot;</highlight><highlight class="normal">,<sp/>meta<sp/>=<sp/>(AllowPrivateAccess<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;true&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="79" refid="classAFlexiCamCharacter_1a1cf734d2bc5c34ad1ca7f393c3603dd3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>USpringArmComponent*<sp/>CameraBoom;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(VisibleAnywhere,<sp/>BlueprintReadOnly,<sp/>Category<sp/>=<sp/>&quot;Components&quot;,<sp/>meta<sp/>=<sp/>(AllowPrivateAccess<sp/>=<sp/>&quot;true&quot;))</highlight></codeline>
+<codeline lineno="83" refid="classAFlexiCamCharacter_1a88bcba3bf83614cfb9dffe4bb8e4c78b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>TObjectPtr&lt;UFlexiCameraComponent&gt;<sp/>FollowCamera;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(VisibleAnywhere,<sp/>BlueprintReadOnly,<sp/>Category<sp/>=<sp/>&quot;Components&quot;,<sp/>meta<sp/>=<sp/>(AllowPrivateAccess<sp/>=<sp/>&quot;true&quot;))</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>TObjectPtr&lt;UFlexiCameraModeManagerComponent&gt;<sp/>FlexiCameraModeManagerComponent;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal">protected:</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditAnywhere,<sp/>Category<sp/>=<sp/>&quot;Input&quot;)</highlight></codeline>
+<codeline lineno="93" refid="classAFlexiCamCharacter_1ac9de726dd232393f3dd6fbd5faee948c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>UInputAction*<sp/>JumpAction;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditAnywhere,<sp/>Category<sp/>=<sp/>&quot;Input&quot;)</highlight></codeline>
+<codeline lineno="97" refid="classAFlexiCamCharacter_1a27c4683dc6b20e6363183a0108fda8c3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>UInputAction*<sp/>MoveAction;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditAnywhere,<sp/>Category<sp/>=<sp/>&quot;Input&quot;)</highlight></codeline>
+<codeline lineno="101" refid="classAFlexiCamCharacter_1abf5816627b4ef4dee9278d3c0a16aaa1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>UInputAction*<sp/>LookAction;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>UPROPERTY(EditAnywhere,<sp/>Category<sp/>=<sp/>&quot;Input&quot;)</highlight></codeline>
+<codeline lineno="105" refid="classAFlexiCamCharacter_1a63b13735a6d0f5c187d1ef7c91acf34c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>UInputAction*<sp/>MouseLookAction;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="Source/FlexiCam/Public/Examples/FlexiCamCharacter.h"/>
+  </compounddef>
+</doxygen>

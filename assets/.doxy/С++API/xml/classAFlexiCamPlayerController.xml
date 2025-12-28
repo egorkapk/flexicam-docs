@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classAFlexiCamPlayerController" kind="class" language="C++" prot="public">
+    <compoundname>AFlexiCamPlayerController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">APlayerController</basecompoundref>
+    <includes refid="FlexiCamPlayerController_8h" local="no">FlexiCamPlayerController.h</includes>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classAFlexiCamPlayerController_1af60372738d1e5b62603a552f3f27b953" prot="protected" static="no" mutable="no">
+        <type>TArray&lt; UInputMappingContext * &gt;</type>
+        <definition>TArray&lt;UInputMappingContext*&gt; AFlexiCamPlayerController::DefaultMappingContexts</definition>
+        <argsstring></argsstring>
+        <name>DefaultMappingContexts</name>
+        <qualifiedname>AFlexiCamPlayerController::DefaultMappingContexts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Input Mapping Contexts </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/Examples/FlexiCamPlayerController.h" line="27" column="8" bodyfile="Source/FlexiCam/Public/Examples/FlexiCamPlayerController.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classAFlexiCamPlayerController_1a0f833ec6cde8bfcbc88f794b2b640b1b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void AFlexiCamPlayerController::SetupInputComponent</definition>
+        <argsstring>() override</argsstring>
+        <name>SetupInputComponent</name>
+        <qualifiedname>AFlexiCamPlayerController::SetupInputComponent</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Input mapping context setup </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Source/FlexiCam/Public/Examples/FlexiCamPlayerController.h" line="22" column="14" bodyfile="Source/FlexiCam/Private/Examples/FlexiCamPlayerController.cpp" bodystart="9" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Basic PlayerController class for a third person game Manages input mappings </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>AFlexiCamPlayerController</label>
+        <link refid="classAFlexiCamPlayerController"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>APlayerController</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>AFlexiCamPlayerController</label>
+        <link refid="classAFlexiCamPlayerController"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>APlayerController</label>
+      </node>
+    </collaborationgraph>
+    <location file="Source/FlexiCam/Public/Examples/FlexiCamPlayerController.h" line="16" column="1" bodyfile="Source/FlexiCam/Public/Examples/FlexiCamPlayerController.h" bodystart="17" bodyend="28"/>
+    <listofallmembers>
+      <member refid="classAFlexiCamPlayerController_1af60372738d1e5b62603a552f3f27b953" prot="protected" virt="non-virtual"><scope>AFlexiCamPlayerController</scope><name>DefaultMappingContexts</name></member>
+      <member refid="classAFlexiCamPlayerController_1a0f833ec6cde8bfcbc88f794b2b640b1b" prot="protected" virt="virtual"><scope>AFlexiCamPlayerController</scope><name>SetupInputComponent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
