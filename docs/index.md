@@ -14,6 +14,12 @@ System overview
 
 ---
 
+To see Plugin in action visit
+
+[Examples](examples/overview.md)
+
+---
+
 Installing Plugin
 
 [Installation Guide](installation.md)
